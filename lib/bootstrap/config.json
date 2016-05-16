@@ -1,0 +1,15 @@
+{
+  "vars": {},
+  "css": [
+    "type.less",
+    "code.less",
+    "grid.less",
+    "buttons.less",
+    "jumbotron.less",
+    "alerts.less",
+    "media.less",
+    "wells.less"
+  ],
+  "js": [],
+  "customizerUrl": "http://getbootstrap.com/customize/?id=6ef0c7f462b0a3ad12b348f4deeb393a"
+}

@@ -1,0 +1,179 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Souvik Dey Chowdhury">
+    <meta name="description" content="Aadhaar API for .NET is a client library that provides an easy way to interact with the UIDAI Aadhaar services.">
+
+    <title>Aadhaar API for .NET</title>
+    <link rel="icon" href="https://cdn.rawgit.com/souvikdc9/aadhaarapi.net/master/Logo/NuGet.png">
+    <link rel="stylesheet" href="lib/bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="lib/bootstrap/css/bootstrap-theme.min.css" />
+    <link rel="stylesheet" href="lib/highlight/styles/vs.css" />
+    <script src="lib/highlight/highlight.pack.js"></script>
+    <script>
+        hljs.initHighlightingOnLoad();
+    </script>
+</head>
+
+<body>
+    <header class="jumbotron text-center">
+        <div class="container">
+            <div class="page-header">
+                <h1>Aadhaar API for .NET</h1>
+                <p>Aadhaar API for .NET is a client library that provides an easy way to interact with the UIDAI Aadhaar services.</p>
+            </div>
+            <nav class="container">
+                <div class="row">
+                    <div class="col-md-3"><a href="https://www.nuget.org/packages/Uidai.Aadhaar" class="btn btn-block btn-default btn-lg">View on NuGet</a></div>
+                    <div class="col-md-3"><a href="https://github.com/souvikdc9/aadhaarapi.net" class="btn btn-block btn-default btn-lg">View on GitHub</a></div>
+                    <div class="col-md-3"><a href="https://github.com/souvikdc9/aadhaarapi.net/zipball/master" class="btn btn-block btn-default btn-lg">Download Source</a></div>
+                    <div class="col-md-3"><a href="https://www.developer.uidai.gov.in/site/auth_cert_details" class="btn btn-block btn-default btn-lg">Download Certificates</a></div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+        <h2>Authentication Service</h2>
+        <p>Aadhaar authentication is the process wherein Aadhaar Number, along with other attributes, including biometrics,
+            are submitted online to the CIDR for its verification on the basis of information available with it.</p>
+
+        <h3>Collect Resident Data</h3>
+        <pre>
+<code class="cs">
+    var personalInfo = new PersonalInfo
+    {
+        AadhaarNumber = "999999990019",
+        Demographic = new Demographic
+        {
+            Identity = new Identity
+            {
+                Name = "Shivshankar Choudhury",
+                DateOfBirth = new DateTime(1968, 5, 13, 0, 0, 0),
+                Gender = Gender.Male,
+                Phone = "2810806979",
+                Email = "sschoudhury@dummyemail.com"
+            },
+            Address = new Address
+            {
+                Street = "12 Maulana Azad Marg",
+                State = "New Delhi",
+                Pincode = "110002"
+            }
+        }
+    };
+    personalInfo.Biometrics.Add(new Biometric
+    {
+        Type = BiometricType.Minutiae,
+        Position = BiometricPosition.LeftIndex,
+        Data = BiometricData
+    });
+</code>
+    </pre>
+
+        <h3>Encrypt Data</h3>
+        <pre>
+<code class="cs">
+    var deviceContext = new AuthContext
+    {
+        DeviceInfo = Configuration.Current.DeviceInfo.Create(),
+    };
+    var sessionKey = new SessionKey(Configuration.Current.UidaiEncryption, false);
+    await deviceContext.EncryptAsync(personalInfo, sessionKey);
+    // Send Data to AUA
+    // var wrapped = WrapIntoAuaProtocol(deviceContext.ToXml());
+</code>
+    </pre>
+
+        <h3>Perform Authentication</h3>
+        <pre>
+<code class="cs">
+    // Receive Data from Device
+    // var deviceContext = UnwrapFromAuaProtocol(wrapped);
+    var apiClient = new AuthClient
+    {
+        AgencyInfo = Configuration.Current.AgencyInfo,
+        Request = new AuthRequest(deviceContext) { Signer = XmlSignature },
+        Response = new AuthResponse { Verifier = XmlSignature }
+    };
+        await apiClient.GetResponseAsync();
+        Console.WriteLine(string.IsNullOrEmpty(apiClient.Response.ErrorCode)
+            ? $"Is the user authentic: {apiClient.Response.IsAuthentic}"
+            : $"Error Code: {apiClient.Response.ErrorCode}");
+    
+    // Review error, if any
+    apiClient.Response.Info.Decode();
+    var mismatch = string.Join(", ", apiClient.Response.Info.GetMismatch());
+    if (!string.IsNullOrEmpty(mismatch))
+        Console.WriteLine($"Mismatch Attributes: {mismatch}");
+    // Send Authentication Data to Device
+</code>
+    </pre>
+
+        <h3>Configuration</h3>
+        <pre>
+<code class="json">
+    {
+        "DeviceInfo": {
+            "UniqueDeviceCode": "ABCDE.20150101.00001",
+            "FingerprintDeviceCode": "NC",
+            "IrisDeviceCode": "NC",
+            "Location": "21,78,0",
+            "LocationType": "GeoCoordinate"
+        },
+        "UIDAIEncryption": "Key/UidaiEncryptAndSign.cer",
+        "AgencyInfo": {
+            "AuaLicenseKey": "&lt;License Key&gt;",
+            "AuaCode": "public",
+            "Hosts": {
+                "Auth": "http://auth.uidai.gov.in/1.6/",
+                "Bfd": "http://developer.uidai.gov.in/bfd/1.6/",
+                "Kyc": "http://developer.uidai.gov.in/kyc/1.0/",
+                "Otp": "http://developer.uidai.gov.in/otp/1.6/"
+            }
+        },
+        "UIDAIDigitalSignature": "Key/UidaiEncryptAndSign.cer"
+    }
+</code>
+    </pre>
+
+        <h2>BFD, OTP, e-KYC, Registered Device Reset Services</h2>
+        <p>Other UIDAI services can also be accessed in similar manner using their corresponding classes.</p>
+        <p>See <a href="https://github.com/souvikdc9/aadhaarapi.net/tree/master/Source/source/Uidai.Aadhaar.Sample">Sample</a> project, for more details.</p>
+
+        <h2>Issues</h2>
+        <p class="alert alert-danger">e-KYC is currently, not working.</p>
+
+        <div class="media">
+            <div class="media-body">
+                <h2 class="media-heading">Developer</h2>
+                <p>Souvik Dey Chowdhury</p>
+            </div>
+            <div class="media-right">
+                <img alt="Email" src="images/email.png" class="media-object" style="height:100px;width:100px">
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p style="margin: 50px 0px 0px 0px" class="well text-center text-muted">
+            Copyright © 2015 Souvik Dey Chowdhury
+            <br /> Licensed under GNU Lesser General Public License v3 or later
+        </p>
+    </footer>
+    <style>
+        pre {
+            overflow-x: auto;
+        }
+        
+        pre code {
+            overflow-wrap: normal;
+            white-space: pre;
+        }
+    </style>
+</body>
+
+</html>
