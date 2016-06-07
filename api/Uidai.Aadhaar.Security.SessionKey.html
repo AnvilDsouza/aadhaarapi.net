@@ -1,0 +1,509 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class SessionKey
+   | Aadhaar API for .NET </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class SessionKey
+   | Aadhaar API for .NET ">
+    <meta name="generator" content="docfx 2.0.0.0">
+    <meta name="description" content="Aadhaar API for .NET is a client library that provides an easy way to interact with the UIDAI Aadhaar services.">
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content">
+              
+              <a href="https://github.com/souvikdc9/aadhaarapi.net/new/master/Documentation/apispec/new?filename=Uidai_Aadhaar_Security_SessionKey.md&amp;value=---%0Auid%3A%20Uidai.Aadhaar.Security.SessionKey%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="btn btn-primary pull-right mobile-hide">Improve this Doc</a>
+              <a href="https://github.com/souvikdc9/aadhaarapi.net/blob/master/Source/src/Uidai.Aadhaar/Security/SessionKey.cs/#L34" class="btn btn-primary pull-right mobile-hide">View Source</a>
+              <h1 id="Uidai_Aadhaar_Security_SessionKey" data-uid="Uidai.Aadhaar.Security.SessionKey">Class SessionKey
+              </h1>
+              <div class="markdown level0 summary"><p> Provides a wrapper to encrypt data using 256-bit AES algorithm.</p>
+</div>
+              <div class="markdown level0 conceptual"></div>
+              <div class="inheritance">
+                <h5>Inheritance</h5>
+                  <div class="level0"><span class="xref">System.Object</span></div>
+                  <div class="level1"><span class="xref">SessionKey</span></div>
+              </div>
+              <div class="inheritedMembers">
+                <h5>Inherited Members</h5>
+                <div>
+                  <span class="xref">System.Object.ToString()</span>
+                </div>
+                <div>
+                  <span class="xref">System.Object.Equals(System.Object)</span>
+                </div>
+                <div>
+                  <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+                </div>
+                <div>
+                  <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+                </div>
+                <div>
+                  <span class="xref">System.Object.GetHashCode()</span>
+                </div>
+                <div>
+                  <span class="xref">System.Object.GetType()</span>
+                </div>
+                <div>
+                  <span class="xref">System.Object.MemberwiseClone()</span>
+                </div>
+              </div>
+              <h6><strong>Namespace</strong>:Uidai.Aadhaar.Security</h6>
+              <h6><strong>Assembly</strong>:Uidai.Aadhaar.dll</h6>
+              <h5 id="Uidai_Aadhaar_Security_SessionKey_syntax">Syntax</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public class SessionKey : IDisposable</code></pre>
+              </div>
+              <h3 id="constructors">Constructors
+              </h3>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/souvikdc9/aadhaarapi.net/new/master/Documentation/apispec/new?filename=Uidai_Aadhaar_Security_SessionKey__ctor_System_Security_Cryptography_X509Certificates_X509Certificate2_System_Boolean_.md&amp;value=---%0Auid%3A%20Uidai.Aadhaar.Security.SessionKey.%23ctor(System.Security.Cryptography.X509Certificates.X509Certificate2%2CSystem.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              <span class="small pull-right mobile-hide">
+                <a href="https://github.com/souvikdc9/aadhaarapi.net/blob/master/Source/src/Uidai.Aadhaar/Security/SessionKey.cs/#L65">View Source</a>
+              </span>
+              <h4 id="Uidai_Aadhaar_Security_SessionKey__ctor_System_Security_Cryptography_X509Certificates_X509Certificate2_System_Boolean_" data-uid="Uidai.Aadhaar.Security.SessionKey.#ctor(System.Security.Cryptography.X509Certificates.X509Certificate2,System.Boolean)">SessionKey(X509Certificate2, Boolean)</h4>
+              <div class="markdown level1 summary"><p>Initializes a new instance of the <a class="xref" href="Uidai.Aadhaar.Security.SessionKey.html#Uidai_Aadhaar_Security_SessionKey">SessionKey</a> class with a specified UIDAI public key.
+Keeps the certificate open after the <a class="xref" href="Uidai.Aadhaar.Security.SessionKey.html#Uidai_Aadhaar_Security_SessionKey">SessionKey</a> object is disposed.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public SessionKey(X509Certificate2 uidaiKey, bool isSynchronized)</code></pre>
+              </div>
+              <h5 class="parameters">Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Security.Cryptography.X509Certificates.X509Certificate2</span></td>
+                    <td><em>uidaiKey</em></td>
+                    <td><p>The X.509 certificate.</p>
+</td>
+                  </tr>
+                  <tr>
+                    <td><span class="xref">System.Boolean</span></td>
+                    <td><em>isSynchronized</em></td>
+                    <td><p>true to use synchronized session key; otherwise false.</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/souvikdc9/aadhaarapi.net/new/master/Documentation/apispec/new?filename=Uidai_Aadhaar_Security_SessionKey__ctor_System_String_System_Boolean_.md&amp;value=---%0Auid%3A%20Uidai.Aadhaar.Security.SessionKey.%23ctor(System.String%2CSystem.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              <span class="small pull-right mobile-hide">
+                <a href="https://github.com/souvikdc9/aadhaarapi.net/blob/master/Source/src/Uidai.Aadhaar/Security/SessionKey.cs/#L54">View Source</a>
+              </span>
+              <h4 id="Uidai_Aadhaar_Security_SessionKey__ctor_System_String_System_Boolean_" data-uid="Uidai.Aadhaar.Security.SessionKey.#ctor(System.String,System.Boolean)">SessionKey(String, Boolean)</h4>
+              <div class="markdown level1 summary"><p>Initializes a new instance of the <a class="xref" href="Uidai.Aadhaar.Security.SessionKey.html#Uidai_Aadhaar_Security_SessionKey">SessionKey</a> class with a specified file name of UIDAI public key.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public SessionKey(string fileName, bool isSynchronized)</code></pre>
+              </div>
+              <h5 class="parameters">Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.String</span></td>
+                    <td><em>fileName</em></td>
+                    <td><p>The file name of the X.509 certificate.</p>
+</td>
+                  </tr>
+                  <tr>
+                    <td><span class="xref">System.Boolean</span></td>
+                    <td><em>isSynchronized</em></td>
+                    <td><p>true to use synchronized session key; otherwise false.</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              <h3 id="fields">Fields
+              </h3>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/souvikdc9/aadhaarapi.net/new/master/Documentation/apispec/new?filename=Uidai_Aadhaar_Security_SessionKey_SynchronizedKeyTimeout.md&amp;value=---%0Auid%3A%20Uidai.Aadhaar.Security.SessionKey.SynchronizedKeyTimeout%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              <span class="small pull-right mobile-hide">
+                <a href="https://github.com/souvikdc9/aadhaarapi.net/blob/master/Source/src/Uidai.Aadhaar/Security/SessionKey.cs/#L39">View Source</a>
+              </span>
+              <h4 id="Uidai_Aadhaar_Security_SessionKey_SynchronizedKeyTimeout" data-uid="Uidai.Aadhaar.Security.SessionKey.SynchronizedKeyTimeout">SynchronizedKeyTimeout</h4>
+              <div class="markdown level1 summary"><p>Represents the time span a synchronized key is valid. This field is configurable.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public static TimeSpan SynchronizedKeyTimeout</code></pre>
+              </div>
+              <h5 class="fieldValue">Field Value</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.TimeSpan</span></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              <h3 id="properties">Properties
+              </h3>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/souvikdc9/aadhaarapi.net/new/master/Documentation/apispec/new?filename=Uidai_Aadhaar_Security_SessionKey_HasExpired.md&amp;value=---%0Auid%3A%20Uidai.Aadhaar.Security.SessionKey.HasExpired%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              <span class="small pull-right mobile-hide">
+                <a href="https://github.com/souvikdc9/aadhaarapi.net/blob/master/Source/src/Uidai.Aadhaar/Security/SessionKey.cs/#L108">View Source</a>
+              </span>
+              <h4 id="Uidai_Aadhaar_Security_SessionKey_HasExpired" data-uid="Uidai.Aadhaar.Security.SessionKey.HasExpired">HasExpired</h4>
+              <div class="markdown level1 summary"><p>Gets a value that indicates whether a synchronized session key has expired. </p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public bool HasExpired { get; }</code></pre>
+              </div>
+              <h5 class="propertyValue">Property Value</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Boolean</span></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/souvikdc9/aadhaarapi.net/new/master/Documentation/apispec/new?filename=Uidai_Aadhaar_Security_SessionKey_IsSynchronized.md&amp;value=---%0Auid%3A%20Uidai.Aadhaar.Security.SessionKey.IsSynchronized%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              <span class="small pull-right mobile-hide">
+                <a href="https://github.com/souvikdc9/aadhaarapi.net/blob/master/Source/src/Uidai.Aadhaar/Security/SessionKey.cs/#L98">View Source</a>
+              </span>
+              <h4 id="Uidai_Aadhaar_Security_SessionKey_IsSynchronized" data-uid="Uidai.Aadhaar.Security.SessionKey.IsSynchronized">IsSynchronized</h4>
+              <div class="markdown level1 summary"><p>Gets a value that indicates whether the session key is synchronized.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public bool IsSynchronized { get; }</code></pre>
+              </div>
+              <h5 class="propertyValue">Property Value</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Boolean</span></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/souvikdc9/aadhaarapi.net/new/master/Documentation/apispec/new?filename=Uidai_Aadhaar_Security_SessionKey_KeyIdentifier.md&amp;value=---%0Auid%3A%20Uidai.Aadhaar.Security.SessionKey.KeyIdentifier%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              <span class="small pull-right mobile-hide">
+                <a href="https://github.com/souvikdc9/aadhaarapi.net/blob/master/Source/src/Uidai.Aadhaar/Security/SessionKey.cs/#L103">View Source</a>
+              </span>
+              <h4 id="Uidai_Aadhaar_Security_SessionKey_KeyIdentifier" data-uid="Uidai.Aadhaar.Security.SessionKey.KeyIdentifier">KeyIdentifier</h4>
+              <div class="markdown level1 summary"><p>Gets the key identifier of the synchronized session key.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public Guid KeyIdentifier { get; }</code></pre>
+              </div>
+              <h5 class="propertyValue">Property Value</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Guid</span></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/souvikdc9/aadhaarapi.net/new/master/Documentation/apispec/new?filename=Uidai_Aadhaar_Security_SessionKey_KeyInfo.md&amp;value=---%0Auid%3A%20Uidai.Aadhaar.Security.SessionKey.KeyInfo%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              <span class="small pull-right mobile-hide">
+                <a href="https://github.com/souvikdc9/aadhaarapi.net/blob/master/Source/src/Uidai.Aadhaar/Security/SessionKey.cs/#L88">View Source</a>
+              </span>
+              <h4 id="Uidai_Aadhaar_Security_SessionKey_KeyInfo" data-uid="Uidai.Aadhaar.Security.SessionKey.KeyInfo">KeyInfo</h4>
+              <div class="markdown level1 summary"><p>Gets the encrypted key info used to encrypt data.
+A new key is generated after <a class="xref" href="Uidai.Aadhaar.Security.SessionKey.html#Uidai_Aadhaar_Security_SessionKey_KeyInfo">KeyInfo</a> is accessed.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public SessionKeyInfo KeyInfo { get; }</code></pre>
+              </div>
+              <h5 class="propertyValue">Property Value</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><a class="xref" href="Uidai.Aadhaar.Security.SessionKeyInfo.html#Uidai_Aadhaar_Security_SessionKeyInfo">SessionKeyInfo</a></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/souvikdc9/aadhaarapi.net/new/master/Documentation/apispec/new?filename=Uidai_Aadhaar_Security_SessionKey_UidaiKey.md&amp;value=---%0Auid%3A%20Uidai.Aadhaar.Security.SessionKey.UidaiKey%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              <span class="small pull-right mobile-hide">
+                <a href="https://github.com/souvikdc9/aadhaarapi.net/blob/master/Source/src/Uidai.Aadhaar/Security/SessionKey.cs/#L93">View Source</a>
+              </span>
+              <h4 id="Uidai_Aadhaar_Security_SessionKey_UidaiKey" data-uid="Uidai.Aadhaar.Security.SessionKey.UidaiKey">UidaiKey</h4>
+              <div class="markdown level1 summary"><p>Gets the UIDAI public key.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public X509Certificate2 UidaiKey { get; }</code></pre>
+              </div>
+              <h5 class="propertyValue">Property Value</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Security.Cryptography.X509Certificates.X509Certificate2</span></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              <h3 id="methods">Methods
+              </h3>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/souvikdc9/aadhaarapi.net/new/master/Documentation/apispec/new?filename=Uidai_Aadhaar_Security_SessionKey_Dispose.md&amp;value=---%0Auid%3A%20Uidai.Aadhaar.Security.SessionKey.Dispose%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              <span class="small pull-right mobile-hide">
+                <a href="https://github.com/souvikdc9/aadhaarapi.net/blob/master/Source/src/Uidai.Aadhaar/Security/SessionKey.cs/#L191">View Source</a>
+              </span>
+              <h4 id="Uidai_Aadhaar_Security_SessionKey_Dispose" data-uid="Uidai.Aadhaar.Security.SessionKey.Dispose">Dispose()</h4>
+              <div class="markdown level1 summary"><p>Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public void Dispose()</code></pre>
+              </div>
+              <h5 class="implements">Implements</h5>
+                  <div><span class="xref">System.IDisposable.Dispose()</span></div>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/souvikdc9/aadhaarapi.net/new/master/Documentation/apispec/new?filename=Uidai_Aadhaar_Security_SessionKey_Dispose_System_Boolean_.md&amp;value=---%0Auid%3A%20Uidai.Aadhaar.Security.SessionKey.Dispose(System.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              <span class="small pull-right mobile-hide">
+                <a href="https://github.com/souvikdc9/aadhaarapi.net/blob/master/Source/src/Uidai.Aadhaar/Security/SessionKey.cs/#L169">View Source</a>
+              </span>
+              <h4 id="Uidai_Aadhaar_Security_SessionKey_Dispose_System_Boolean_" data-uid="Uidai.Aadhaar.Security.SessionKey.Dispose(System.Boolean)">Dispose(Boolean)</h4>
+              <div class="markdown level1 summary"><p>Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">protected virtual void Dispose(bool disposing)</code></pre>
+              </div>
+              <h5 class="parameters">Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Boolean</span></td>
+                    <td><em>disposing</em></td>
+                    <td><p>true if the method call comes from a <a class="xref" href="Uidai.Aadhaar.Security.SessionKey.html#Uidai_Aadhaar_Security_SessionKey_Dispose_System_Boolean_">Dispose(Boolean)</a>; otherwise false.</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/souvikdc9/aadhaarapi.net/new/master/Documentation/apispec/new?filename=Uidai_Aadhaar_Security_SessionKey_Encrypt_System_Byte___.md&amp;value=---%0Auid%3A%20Uidai.Aadhaar.Security.SessionKey.Encrypt(System.Byte%5B%5D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              <span class="small pull-right mobile-hide">
+                <a href="https://github.com/souvikdc9/aadhaarapi.net/blob/master/Source/src/Uidai.Aadhaar/Security/SessionKey.cs/#L115">View Source</a>
+              </span>
+              <h4 id="Uidai_Aadhaar_Security_SessionKey_Encrypt_System_Byte___" data-uid="Uidai.Aadhaar.Security.SessionKey.Encrypt(System.Byte[])">Encrypt(Byte[])</h4>
+              <div class="markdown level1 summary"><p>Encrypts an input byte array and returns the encrypted array.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public byte[] Encrypt(byte[] dataToEncrypt)</code></pre>
+              </div>
+              <h5 class="parameters">Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Byte</span>[]</td>
+                    <td><em>dataToEncrypt</em></td>
+                    <td><p>The data to encrypt.</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="returns">Returns</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Byte</span>[]</td>
+                    <td><p>A byte array that contains the encrypted data.</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+            </article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+            <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+            </nav>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            Copyright (C) 2015 Souvik Dey Chowdhury<br>Licensed under GNU Lesser General Public License v3 or later
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+  </body>
+</html>

@@ -1,0 +1,745 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class DeviceContext&lt;T&gt;
+   | Aadhaar API for .NET </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class DeviceContext&lt;T&gt;
+   | Aadhaar API for .NET ">
+    <meta name="generator" content="docfx 2.0.0.0">
+    <meta name="description" content="Aadhaar API for .NET is a client library that provides an easy way to interact with the UIDAI Aadhaar services.">
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content">
+              
+              <a href="https://github.com/souvikdc9/aadhaarapi.net/new/master/Documentation/apispec/new?filename=Uidai_Aadhaar_Device_DeviceContext_1.md&amp;value=---%0Auid%3A%20Uidai.Aadhaar.Device.DeviceContext%601%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="btn btn-primary pull-right mobile-hide">Improve this Doc</a>
+              <a href="https://github.com/souvikdc9/aadhaarapi.net/blob/master/Source/src/Uidai.Aadhaar/Device/DeviceContext.cs/#L41" class="btn btn-primary pull-right mobile-hide">View Source</a>
+              <h1 id="Uidai_Aadhaar_Device_DeviceContext_1" data-uid="Uidai.Aadhaar.Device.DeviceContext`1">Class DeviceContext&lt;T&gt;
+              </h1>
+              <div class="markdown level0 summary"><p>Represents a combination of resident data and related information. This is an abstract class.</p>
+</div>
+              <div class="markdown level0 conceptual"></div>
+              <div class="inheritance">
+                <h5>Inheritance</h5>
+                  <div class="level0"><span class="xref">System.Object</span></div>
+                  <div class="level1"><span class="xref">DeviceContext&lt;T&gt;</span></div>
+              </div>
+              <div class="inheritedMembers">
+                <h5>Inherited Members</h5>
+                <div>
+                  <span class="xref">System.Object.ToString()</span>
+                </div>
+                <div>
+                  <span class="xref">System.Object.Equals(System.Object)</span>
+                </div>
+                <div>
+                  <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+                </div>
+                <div>
+                  <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+                </div>
+                <div>
+                  <span class="xref">System.Object.GetHashCode()</span>
+                </div>
+                <div>
+                  <span class="xref">System.Object.GetType()</span>
+                </div>
+                <div>
+                  <span class="xref">System.Object.MemberwiseClone()</span>
+                </div>
+              </div>
+              <h6><strong>Namespace</strong>:Uidai.Aadhaar.Device</h6>
+              <h6><strong>Assembly</strong>:Uidai.Aadhaar.dll</h6>
+              <h5 id="Uidai_Aadhaar_Device_DeviceContext_1_syntax">Syntax</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public abstract class DeviceContext&lt;T&gt; : IXml where T : IXml</code></pre>
+              </div>
+              <h5 class="typeParameters">Type Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Name</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><em>T</em></td>
+                    <td>The type of data to be encrypted.</td>
+                  </tr>
+                </tbody>
+              </table>
+              <h3 id="constructors">Constructors
+              </h3>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/souvikdc9/aadhaarapi.net/new/master/Documentation/apispec/new?filename=Uidai_Aadhaar_Device_DeviceContext_1__ctor.md&amp;value=---%0Auid%3A%20Uidai.Aadhaar.Device.DeviceContext%601.%23ctor%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              <span class="small pull-right mobile-hide">
+                <a href="https://github.com/souvikdc9/aadhaarapi.net/blob/master/Source/src/Uidai.Aadhaar/Device/DeviceContext.cs/#L48">View Source</a>
+              </span>
+              <h4 id="Uidai_Aadhaar_Device_DeviceContext_1__ctor" data-uid="Uidai.Aadhaar.Device.DeviceContext`1.#ctor">DeviceContext()</h4>
+              <div class="markdown level1 summary"><p>Initializes a new instance of the <a class="xref" href="Uidai.Aadhaar.Device.DeviceContext%601.html#Uidai_Aadhaar_Device_DeviceContext_1">DeviceContext<t></t></a> class.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">protected DeviceContext()</code></pre>
+              </div>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/souvikdc9/aadhaarapi.net/new/master/Documentation/apispec/new?filename=Uidai_Aadhaar_Device_DeviceContext_1__ctor_System_Xml_Linq_XElement_.md&amp;value=---%0Auid%3A%20Uidai.Aadhaar.Device.DeviceContext%601.%23ctor(System.Xml.Linq.XElement)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              <span class="small pull-right mobile-hide">
+                <a href="https://github.com/souvikdc9/aadhaarapi.net/blob/master/Source/src/Uidai.Aadhaar/Device/DeviceContext.cs/#L54">View Source</a>
+              </span>
+              <h4 id="Uidai_Aadhaar_Device_DeviceContext_1__ctor_System_Xml_Linq_XElement_" data-uid="Uidai.Aadhaar.Device.DeviceContext`1.#ctor(System.Xml.Linq.XElement)">DeviceContext(XElement)</h4>
+              <div class="markdown level1 summary"><p>Initializes a new instance of the <a class="xref" href="Uidai.Aadhaar.Device.DeviceContext%601.html#Uidai_Aadhaar_Device_DeviceContext_1">DeviceContext<t></t></a> class from an XML.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">protected DeviceContext(XElement element)</code></pre>
+              </div>
+              <h5 class="parameters">Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Xml.Linq.XElement</span></td>
+                    <td><em>element</em></td>
+                    <td><p>The XML to deserialize.</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              <h3 id="properties">Properties
+              </h3>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/souvikdc9/aadhaarapi.net/new/master/Documentation/apispec/new?filename=Uidai_Aadhaar_Device_DeviceContext_1_AadhaarNumber.md&amp;value=---%0Auid%3A%20Uidai.Aadhaar.Device.DeviceContext%601.AadhaarNumber%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              <span class="small pull-right mobile-hide">
+                <a href="https://github.com/souvikdc9/aadhaarapi.net/blob/master/Source/src/Uidai.Aadhaar/Device/DeviceContext.cs/#L64">View Source</a>
+              </span>
+              <h4 id="Uidai_Aadhaar_Device_DeviceContext_1_AadhaarNumber" data-uid="Uidai.Aadhaar.Device.DeviceContext`1.AadhaarNumber">AadhaarNumber</h4>
+              <div class="markdown level1 summary"><p>Gets or sets the Aadhaar number.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public string AadhaarNumber { get; set; }</code></pre>
+              </div>
+              <h5 class="propertyValue">Property Value</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.String</span></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/souvikdc9/aadhaarapi.net/new/master/Documentation/apispec/new?filename=Uidai_Aadhaar_Device_DeviceContext_1_ApiName.md&amp;value=---%0Auid%3A%20Uidai.Aadhaar.Device.DeviceContext%601.ApiName%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              <span class="small pull-right mobile-hide">
+                <a href="https://github.com/souvikdc9/aadhaarapi.net/blob/master/Source/src/Uidai.Aadhaar/Device/DeviceContext.cs/#L59">View Source</a>
+              </span>
+              <h4 id="Uidai_Aadhaar_Device_DeviceContext_1_ApiName" data-uid="Uidai.Aadhaar.Device.DeviceContext`1.ApiName">ApiName</h4>
+              <div class="markdown level1 summary"><p>Gets the name of the API. The name is usually the XML root name sent in request.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public abstract string ApiName { get; }</code></pre>
+              </div>
+              <h5 class="propertyValue">Property Value</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.String</span></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/souvikdc9/aadhaarapi.net/new/master/Documentation/apispec/new?filename=Uidai_Aadhaar_Device_DeviceContext_1_Data.md&amp;value=---%0Auid%3A%20Uidai.Aadhaar.Device.DeviceContext%601.Data%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              <span class="small pull-right mobile-hide">
+                <a href="https://github.com/souvikdc9/aadhaarapi.net/blob/master/Source/src/Uidai.Aadhaar/Device/DeviceContext.cs/#L94">View Source</a>
+              </span>
+              <h4 id="Uidai_Aadhaar_Device_DeviceContext_1_Data" data-uid="Uidai.Aadhaar.Device.DeviceContext`1.Data">Data</h4>
+              <div class="markdown level1 summary"><p>Gets or sets the encrypted data.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public EncryptedData Data { get; set; }</code></pre>
+              </div>
+              <h5 class="propertyValue">Property Value</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><a class="xref" href="Uidai.Aadhaar.Device.EncryptedData.html#Uidai_Aadhaar_Device_EncryptedData">EncryptedData</a></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/souvikdc9/aadhaarapi.net/new/master/Documentation/apispec/new?filename=Uidai_Aadhaar_Device_DeviceContext_1_DeviceInfo.md&amp;value=---%0Auid%3A%20Uidai.Aadhaar.Device.DeviceContext%601.DeviceInfo%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              <span class="small pull-right mobile-hide">
+                <a href="https://github.com/souvikdc9/aadhaarapi.net/blob/master/Source/src/Uidai.Aadhaar/Device/DeviceContext.cs/#L84">View Source</a>
+              </span>
+              <h4 id="Uidai_Aadhaar_Device_DeviceContext_1_DeviceInfo" data-uid="Uidai.Aadhaar.Device.DeviceContext`1.DeviceInfo">DeviceInfo</h4>
+              <div class="markdown level1 summary"><p>Gets or sets the metadata information of the device.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public Metadata DeviceInfo { get; set; }</code></pre>
+              </div>
+              <h5 class="propertyValue">Property Value</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><a class="xref" href="Uidai.Aadhaar.Device.Metadata.html#Uidai_Aadhaar_Device_Metadata">Metadata</a></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/souvikdc9/aadhaarapi.net/new/master/Documentation/apispec/new?filename=Uidai_Aadhaar_Device_DeviceContext_1_Hmac.md&amp;value=---%0Auid%3A%20Uidai.Aadhaar.Device.DeviceContext%601.Hmac%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              <span class="small pull-right mobile-hide">
+                <a href="https://github.com/souvikdc9/aadhaarapi.net/blob/master/Source/src/Uidai.Aadhaar/Device/DeviceContext.cs/#L99">View Source</a>
+              </span>
+              <h4 id="Uidai_Aadhaar_Device_DeviceContext_1_Hmac" data-uid="Uidai.Aadhaar.Device.DeviceContext`1.Hmac">Hmac</h4>
+              <div class="markdown level1 summary"><p>Gets or sets the encrypted hash value of the data in base64 format.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public string Hmac { get; set; }</code></pre>
+              </div>
+              <h5 class="propertyValue">Property Value</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.String</span></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/souvikdc9/aadhaarapi.net/new/master/Documentation/apispec/new?filename=Uidai_Aadhaar_Device_DeviceContext_1_KeyInfo.md&amp;value=---%0Auid%3A%20Uidai.Aadhaar.Device.DeviceContext%601.KeyInfo%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              <span class="small pull-right mobile-hide">
+                <a href="https://github.com/souvikdc9/aadhaarapi.net/blob/master/Source/src/Uidai.Aadhaar/Device/DeviceContext.cs/#L89">View Source</a>
+              </span>
+              <h4 id="Uidai_Aadhaar_Device_DeviceContext_1_KeyInfo" data-uid="Uidai.Aadhaar.Device.DeviceContext`1.KeyInfo">KeyInfo</h4>
+              <div class="markdown level1 summary"><p>Gets or sets the session key info used to encrypt data.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public SessionKeyInfo KeyInfo { get; set; }</code></pre>
+              </div>
+              <h5 class="propertyValue">Property Value</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><a class="xref" href="Uidai.Aadhaar.Security.SessionKeyInfo.html#Uidai_Aadhaar_Security_SessionKeyInfo">SessionKeyInfo</a></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/souvikdc9/aadhaarapi.net/new/master/Documentation/apispec/new?filename=Uidai_Aadhaar_Device_DeviceContext_1_Terminal.md&amp;value=---%0Auid%3A%20Uidai.Aadhaar.Device.DeviceContext%601.Terminal%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              <span class="small pull-right mobile-hide">
+                <a href="https://github.com/souvikdc9/aadhaarapi.net/blob/master/Source/src/Uidai.Aadhaar/Device/DeviceContext.cs/#L74">View Source</a>
+              </span>
+              <h4 id="Uidai_Aadhaar_Device_DeviceContext_1_Terminal" data-uid="Uidai.Aadhaar.Device.DeviceContext`1.Terminal">Terminal</h4>
+              <div class="markdown level1 summary"><p>Gets or sets the terminal identifier.
+Default is <a class="xref" href="Uidai.Aadhaar.Helper.AadhaarHelper.html#Uidai_Aadhaar_Helper_AadhaarHelper_PublicTerminal">PublicTerminal</a>.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public string Terminal { get; set; }</code></pre>
+              </div>
+              <h5 class="propertyValue">Property Value</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.String</span></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/souvikdc9/aadhaarapi.net/new/master/Documentation/apispec/new?filename=Uidai_Aadhaar_Device_DeviceContext_1_Timestamp.md&amp;value=---%0Auid%3A%20Uidai.Aadhaar.Device.DeviceContext%601.Timestamp%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              <span class="small pull-right mobile-hide">
+                <a href="https://github.com/souvikdc9/aadhaarapi.net/blob/master/Source/src/Uidai.Aadhaar/Device/DeviceContext.cs/#L79">View Source</a>
+              </span>
+              <h4 id="Uidai_Aadhaar_Device_DeviceContext_1_Timestamp" data-uid="Uidai.Aadhaar.Device.DeviceContext`1.Timestamp">Timestamp</h4>
+              <div class="markdown level1 summary"><p>Gets or sets the time of capturing the resident data.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public DateTimeOffset Timestamp { get; set; }</code></pre>
+              </div>
+              <h5 class="propertyValue">Property Value</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.DateTimeOffset</span></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              <h3 id="methods">Methods
+              </h3>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/souvikdc9/aadhaarapi.net/new/master/Documentation/apispec/new?filename=Uidai_Aadhaar_Device_DeviceContext_1_DeserializeXml_System_Xml_Linq_XElement_.md&amp;value=---%0Auid%3A%20Uidai.Aadhaar.Device.DeviceContext%601.DeserializeXml(System.Xml.Linq.XElement)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              <span class="small pull-right mobile-hide">
+                <a href="https://github.com/souvikdc9/aadhaarapi.net/blob/master/Source/src/Uidai.Aadhaar/Device/DeviceContext.cs/#L139">View Source</a>
+              </span>
+              <h4 id="Uidai_Aadhaar_Device_DeviceContext_1_DeserializeXml_System_Xml_Linq_XElement_" data-uid="Uidai.Aadhaar.Device.DeviceContext`1.DeserializeXml(System.Xml.Linq.XElement)">DeserializeXml(XElement)</h4>
+              <div class="markdown level1 summary"><p>When overridden in a descendant class, deserializes the object from an XML according to Aadhaar API specification.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">protected virtual void DeserializeXml(XElement element)</code></pre>
+              </div>
+              <h5 class="parameters">Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Xml.Linq.XElement</span></td>
+                    <td><em>element</em></td>
+                    <td><p>An instance of <span class="xref">XElement</span>.</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/souvikdc9/aadhaarapi.net/new/master/Documentation/apispec/new?filename=Uidai_Aadhaar_Device_DeviceContext_1_Encrypt__0_Uidai_Aadhaar_Security_SessionKey_.md&amp;value=---%0Auid%3A%20Uidai.Aadhaar.Device.DeviceContext%601.Encrypt(%600%2CUidai.Aadhaar.Security.SessionKey)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              <span class="small pull-right mobile-hide">
+                <a href="https://github.com/souvikdc9/aadhaarapi.net/blob/master/Source/src/Uidai.Aadhaar/Device/DeviceContext.cs/#L125">View Source</a>
+              </span>
+              <h4 id="Uidai_Aadhaar_Device_DeviceContext_1_Encrypt__0_Uidai_Aadhaar_Security_SessionKey_" data-uid="Uidai.Aadhaar.Device.DeviceContext`1.Encrypt(`0,Uidai.Aadhaar.Security.SessionKey)">Encrypt(T, SessionKey)</h4>
+              <div class="markdown level1 summary"><p>When overridden in a descendant class, encrypts resident data.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public abstract void Encrypt(T data, SessionKey key)</code></pre>
+              </div>
+              <h5 class="parameters">Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">T</span></td>
+                    <td><em>data</em></td>
+                    <td><p>The data to encrypt.</p>
+</td>
+                  </tr>
+                  <tr>
+                    <td><a class="xref" href="Uidai.Aadhaar.Security.SessionKey.html#Uidai_Aadhaar_Security_SessionKey">SessionKey</a></td>
+                    <td><em>key</em></td>
+                    <td><p>The key to encrypt data.</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/souvikdc9/aadhaarapi.net/new/master/Documentation/apispec/new?filename=Uidai_Aadhaar_Device_DeviceContext_1_EncryptAsync__0_Uidai_Aadhaar_Security_SessionKey_.md&amp;value=---%0Auid%3A%20Uidai.Aadhaar.Device.DeviceContext%601.EncryptAsync(%600%2CUidai.Aadhaar.Security.SessionKey)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              <span class="small pull-right mobile-hide">
+                <a href="https://github.com/souvikdc9/aadhaarapi.net/blob/master/Source/src/Uidai.Aadhaar/Device/DeviceContext.cs/#L133">View Source</a>
+              </span>
+              <h4 id="Uidai_Aadhaar_Device_DeviceContext_1_EncryptAsync__0_Uidai_Aadhaar_Security_SessionKey_" data-uid="Uidai.Aadhaar.Device.DeviceContext`1.EncryptAsync(`0,Uidai.Aadhaar.Security.SessionKey)">EncryptAsync(T, SessionKey)</h4>
+              <div class="markdown level1 summary"><p>Asynchronously encrypts data captured for request.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public Task EncryptAsync(T data, SessionKey key)</code></pre>
+              </div>
+              <h5 class="parameters">Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">T</span></td>
+                    <td><em>data</em></td>
+                    <td><p>The data to encrypt.</p>
+</td>
+                  </tr>
+                  <tr>
+                    <td><a class="xref" href="Uidai.Aadhaar.Security.SessionKey.html#Uidai_Aadhaar_Security_SessionKey">SessionKey</a></td>
+                    <td><em>key</em></td>
+                    <td><p>The key to encrypt data.</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="returns">Returns</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Threading.Tasks.Task</span></td>
+                    <td><p>A task that represents the asynchronous encrypt operation.</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/souvikdc9/aadhaarapi.net/new/master/Documentation/apispec/new?filename=Uidai_Aadhaar_Device_DeviceContext_1_FromXml_System_Xml_Linq_XElement_.md&amp;value=---%0Auid%3A%20Uidai.Aadhaar.Device.DeviceContext%601.FromXml(System.Xml.Linq.XElement)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              <span class="small pull-right mobile-hide">
+                <a href="https://github.com/souvikdc9/aadhaarapi.net/blob/master/Source/src/Uidai.Aadhaar/Device/DeviceContext.cs/#L105">View Source</a>
+              </span>
+              <h4 id="Uidai_Aadhaar_Device_DeviceContext_1_FromXml_System_Xml_Linq_XElement_" data-uid="Uidai.Aadhaar.Device.DeviceContext`1.FromXml(System.Xml.Linq.XElement)">FromXml(XElement)</h4>
+              <div class="markdown level1 summary"><p>Deserializes the object from an XML according to Aadhaar API specification.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public void FromXml(XElement element)</code></pre>
+              </div>
+              <h5 class="parameters">Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Xml.Linq.XElement</span></td>
+                    <td><em>element</em></td>
+                    <td><p>An instance of <span class="xref">XElement</span>.</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="implements">Implements</h5>
+                  <div><a class="xref" href="Uidai.Aadhaar.Helper.IXml.html#Uidai_Aadhaar_Helper_IXml_FromXml_System_Xml_Linq_XElement_">FromXml(XElement)</a></div>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/souvikdc9/aadhaarapi.net/new/master/Documentation/apispec/new?filename=Uidai_Aadhaar_Device_DeviceContext_1_SerializeXml_System_String_.md&amp;value=---%0Auid%3A%20Uidai.Aadhaar.Device.DeviceContext%601.SerializeXml(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              <span class="small pull-right mobile-hide">
+                <a href="https://github.com/souvikdc9/aadhaarapi.net/blob/master/Source/src/Uidai.Aadhaar/Device/DeviceContext.cs/#L157">View Source</a>
+              </span>
+              <h4 id="Uidai_Aadhaar_Device_DeviceContext_1_SerializeXml_System_String_" data-uid="Uidai.Aadhaar.Device.DeviceContext`1.SerializeXml(System.String)">SerializeXml(String)</h4>
+              <div class="markdown level1 summary"><p>When overridden in a descendant class, serializes the object into XML according to Aadhaar API specification.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">protected virtual XElement SerializeXml(string elementName)</code></pre>
+              </div>
+              <h5 class="parameters">Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.String</span></td>
+                    <td><em>elementName</em></td>
+                    <td><p>The name of the element.</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="returns">Returns</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Xml.Linq.XElement</span></td>
+                    <td><p>An instance of <span class="xref">XElement</span>.</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/souvikdc9/aadhaarapi.net/new/master/Documentation/apispec/new?filename=Uidai_Aadhaar_Device_DeviceContext_1_ToXml.md&amp;value=---%0Auid%3A%20Uidai.Aadhaar.Device.DeviceContext%601.ToXml%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              <span class="small pull-right mobile-hide">
+                <a href="https://github.com/souvikdc9/aadhaarapi.net/blob/master/Source/src/Uidai.Aadhaar/Device/DeviceContext.cs/#L118">View Source</a>
+              </span>
+              <h4 id="Uidai_Aadhaar_Device_DeviceContext_1_ToXml" data-uid="Uidai.Aadhaar.Device.DeviceContext`1.ToXml">ToXml()</h4>
+              <div class="markdown level1 summary"><p>Serializes the object into XML according to Aadhaar API specification.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public XElement ToXml()</code></pre>
+              </div>
+              <h5 class="returns">Returns</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Xml.Linq.XElement</span></td>
+                    <td><p>An instance of <span class="xref">XElement</span>.</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/souvikdc9/aadhaarapi.net/new/master/Documentation/apispec/new?filename=Uidai_Aadhaar_Device_DeviceContext_1_ToXml_System_String_.md&amp;value=---%0Auid%3A%20Uidai.Aadhaar.Device.DeviceContext%601.ToXml(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              <span class="small pull-right mobile-hide">
+                <a href="https://github.com/souvikdc9/aadhaarapi.net/blob/master/Source/src/Uidai.Aadhaar/Device/DeviceContext.cs/#L112">View Source</a>
+              </span>
+              <h4 id="Uidai_Aadhaar_Device_DeviceContext_1_ToXml_System_String_" data-uid="Uidai.Aadhaar.Device.DeviceContext`1.ToXml(System.String)">ToXml(String)</h4>
+              <div class="markdown level1 summary"><p>Serializes the object into XML according to Aadhaar API specification.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public XElement ToXml(string elementName)</code></pre>
+              </div>
+              <h5 class="parameters">Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.String</span></td>
+                    <td><em>elementName</em></td>
+                    <td><p>The name of the element.</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="returns">Returns</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Xml.Linq.XElement</span></td>
+                    <td><p>An instance of <span class="xref">XElement</span>.</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="implements">Implements</h5>
+                  <div><a class="xref" href="Uidai.Aadhaar.Helper.IXml.html#Uidai_Aadhaar_Helper_IXml_ToXml_System_String_">ToXml(String)</a></div>
+            </article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+            <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+            </nav>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            Copyright (C) 2015 Souvik Dey Chowdhury<br>Licensed under GNU Lesser General Public License v3 or later
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+  </body>
+</html>
