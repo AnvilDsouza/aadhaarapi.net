@@ -7,75 +7,75 @@ references:
   fullName: Uidai.Aadhaar.Agency
 - uid: Uidai.Aadhaar.Agency.ApiClient`2
   name: ApiClient<TRequest, TResponse>
-  href: api/Uidai.Aadhaar.Agency.ApiClient`2.html#Uidai_Aadhaar_Agency_ApiClient_2
+  href: api/Uidai.Aadhaar.Agency.ApiClient-2.html#Uidai_Aadhaar_Agency_ApiClient_2
   commentId: T:Uidai.Aadhaar.Agency.ApiClient`2
   name.vb: ApiClient(Of TRequest, TResponse)
   fullName: Uidai.Aadhaar.Agency.ApiClient<TRequest, TResponse>
   fullName.vb: Uidai.Aadhaar.Agency.ApiClient(Of TRequest, TResponse)
 - uid: Uidai.Aadhaar.Agency.ApiClient`2.Address
   name: Address
-  href: api/Uidai.Aadhaar.Agency.ApiClient`2.html#Uidai_Aadhaar_Agency_ApiClient_2_Address
+  href: api/Uidai.Aadhaar.Agency.ApiClient-2.html#Uidai_Aadhaar_Agency_ApiClient_2_Address
   commentId: P:Uidai.Aadhaar.Agency.ApiClient`2.Address
   fullName: Uidai.Aadhaar.Agency.ApiClient<TRequest, TResponse>.Address
   fullName.vb: Uidai.Aadhaar.Agency.ApiClient(Of TRequest, TResponse).Address
 - uid: Uidai.Aadhaar.Agency.ApiClient`2.AgencyInfo
   name: AgencyInfo
-  href: api/Uidai.Aadhaar.Agency.ApiClient`2.html#Uidai_Aadhaar_Agency_ApiClient_2_AgencyInfo
+  href: api/Uidai.Aadhaar.Agency.ApiClient-2.html#Uidai_Aadhaar_Agency_ApiClient_2_AgencyInfo
   commentId: P:Uidai.Aadhaar.Agency.ApiClient`2.AgencyInfo
   fullName: Uidai.Aadhaar.Agency.ApiClient<TRequest, TResponse>.AgencyInfo
   fullName.vb: Uidai.Aadhaar.Agency.ApiClient(Of TRequest, TResponse).AgencyInfo
-- uid: Uidai.Aadhaar.Agency.ApiClient`2.ApplyAddress
-  name: ApplyAddress()
-  href: api/Uidai.Aadhaar.Agency.ApiClient`2.html#Uidai_Aadhaar_Agency_ApiClient_2_ApplyAddress
-  commentId: M:Uidai.Aadhaar.Agency.ApiClient`2.ApplyAddress
-  fullName: Uidai.Aadhaar.Agency.ApiClient<TRequest, TResponse>.ApplyAddress()
-  fullName.vb: Uidai.Aadhaar.Agency.ApiClient(Of TRequest, TResponse).ApplyAddress()
-- uid: Uidai.Aadhaar.Agency.ApiClient`2.ApplyAgencyInfo
-  name: ApplyAgencyInfo()
-  href: api/Uidai.Aadhaar.Agency.ApiClient`2.html#Uidai_Aadhaar_Agency_ApiClient_2_ApplyAgencyInfo
-  commentId: M:Uidai.Aadhaar.Agency.ApiClient`2.ApplyAgencyInfo
-  fullName: Uidai.Aadhaar.Agency.ApiClient<TRequest, TResponse>.ApplyAgencyInfo()
-  fullName.vb: Uidai.Aadhaar.Agency.ApiClient(Of TRequest, TResponse).ApplyAgencyInfo()
+- uid: Uidai.Aadhaar.Agency.ApiClient`2.ApplyInfo
+  name: ApplyInfo()
+  href: api/Uidai.Aadhaar.Agency.ApiClient-2.html#Uidai_Aadhaar_Agency_ApiClient_2_ApplyInfo
+  commentId: M:Uidai.Aadhaar.Agency.ApiClient`2.ApplyInfo
+  fullName: Uidai.Aadhaar.Agency.ApiClient<TRequest, TResponse>.ApplyInfo()
+  fullName.vb: Uidai.Aadhaar.Agency.ApiClient(Of TRequest, TResponse).ApplyInfo()
+- uid: Uidai.Aadhaar.Agency.ApiClient`2.DeserializeResponseXml(System.Xml.Linq.XElement)
+  name: DeserializeResponseXml(XElement)
+  href: api/Uidai.Aadhaar.Agency.ApiClient-2.html#Uidai_Aadhaar_Agency_ApiClient_2_DeserializeResponseXml_System_Xml_Linq_XElement_
+  commentId: M:Uidai.Aadhaar.Agency.ApiClient`2.DeserializeResponseXml(System.Xml.Linq.XElement)
+  fullName: Uidai.Aadhaar.Agency.ApiClient<TRequest, TResponse>.DeserializeResponseXml(System.Xml.Linq.XElement)
+  fullName.vb: Uidai.Aadhaar.Agency.ApiClient(Of TRequest, TResponse).DeserializeResponseXml(System.Xml.Linq.XElement)
 - uid: Uidai.Aadhaar.Agency.ApiClient`2.GetResponseAsync
   name: GetResponseAsync()
-  href: api/Uidai.Aadhaar.Agency.ApiClient`2.html#Uidai_Aadhaar_Agency_ApiClient_2_GetResponseAsync
+  href: api/Uidai.Aadhaar.Agency.ApiClient-2.html#Uidai_Aadhaar_Agency_ApiClient_2_GetResponseAsync
   commentId: M:Uidai.Aadhaar.Agency.ApiClient`2.GetResponseAsync
   fullName: Uidai.Aadhaar.Agency.ApiClient<TRequest, TResponse>.GetResponseAsync()
   fullName.vb: Uidai.Aadhaar.Agency.ApiClient(Of TRequest, TResponse).GetResponseAsync()
 - uid: Uidai.Aadhaar.Agency.ApiClient`2.GetResponseAsync(System.Func{System.Xml.Linq.XElement,System.Xml.Linq.XElement},System.Func{System.Xml.Linq.XElement,System.Xml.Linq.XElement})
   name: GetResponseAsync(Func<XElement, XElement>, Func<XElement, XElement>)
-  href: api/Uidai.Aadhaar.Agency.ApiClient`2.html#Uidai_Aadhaar_Agency_ApiClient_2_GetResponseAsync_System_Func_System_Xml_Linq_XElement_System_Xml_Linq_XElement__System_Func_System_Xml_Linq_XElement_System_Xml_Linq_XElement__
+  href: api/Uidai.Aadhaar.Agency.ApiClient-2.html#Uidai_Aadhaar_Agency_ApiClient_2_GetResponseAsync_System_Func_System_Xml_Linq_XElement_System_Xml_Linq_XElement__System_Func_System_Xml_Linq_XElement_System_Xml_Linq_XElement__
   commentId: M:Uidai.Aadhaar.Agency.ApiClient`2.GetResponseAsync(System.Func{System.Xml.Linq.XElement,System.Xml.Linq.XElement},System.Func{System.Xml.Linq.XElement,System.Xml.Linq.XElement})
   name.vb: GetResponseAsync(Func(Of XElement, XElement), Func(Of XElement, XElement))
   fullName: Uidai.Aadhaar.Agency.ApiClient<TRequest, TResponse>.GetResponseAsync(System.Func<System.Xml.Linq.XElement, System.Xml.Linq.XElement>, System.Func<System.Xml.Linq.XElement, System.Xml.Linq.XElement>)
   fullName.vb: Uidai.Aadhaar.Agency.ApiClient(Of TRequest, TResponse).GetResponseAsync(System.Func(Of System.Xml.Linq.XElement, System.Xml.Linq.XElement), System.Func(Of System.Xml.Linq.XElement, System.Xml.Linq.XElement))
+- uid: Uidai.Aadhaar.Agency.ApiClient`2.GetResponseXmlAsync(System.Xml.Linq.XElement)
+  name: GetResponseXmlAsync(XElement)
+  href: api/Uidai.Aadhaar.Agency.ApiClient-2.html#Uidai_Aadhaar_Agency_ApiClient_2_GetResponseXmlAsync_System_Xml_Linq_XElement_
+  commentId: M:Uidai.Aadhaar.Agency.ApiClient`2.GetResponseXmlAsync(System.Xml.Linq.XElement)
+  fullName: Uidai.Aadhaar.Agency.ApiClient<TRequest, TResponse>.GetResponseXmlAsync(System.Xml.Linq.XElement)
+  fullName.vb: Uidai.Aadhaar.Agency.ApiClient(Of TRequest, TResponse).GetResponseXmlAsync(System.Xml.Linq.XElement)
 - uid: Uidai.Aadhaar.Agency.ApiClient`2.Request
   name: Request
-  href: api/Uidai.Aadhaar.Agency.ApiClient`2.html#Uidai_Aadhaar_Agency_ApiClient_2_Request
+  href: api/Uidai.Aadhaar.Agency.ApiClient-2.html#Uidai_Aadhaar_Agency_ApiClient_2_Request
   commentId: P:Uidai.Aadhaar.Agency.ApiClient`2.Request
   fullName: Uidai.Aadhaar.Agency.ApiClient<TRequest, TResponse>.Request
   fullName.vb: Uidai.Aadhaar.Agency.ApiClient(Of TRequest, TResponse).Request
 - uid: Uidai.Aadhaar.Agency.ApiClient`2.Response
   name: Response
-  href: api/Uidai.Aadhaar.Agency.ApiClient`2.html#Uidai_Aadhaar_Agency_ApiClient_2_Response
+  href: api/Uidai.Aadhaar.Agency.ApiClient-2.html#Uidai_Aadhaar_Agency_ApiClient_2_Response
   commentId: P:Uidai.Aadhaar.Agency.ApiClient`2.Response
   fullName: Uidai.Aadhaar.Agency.ApiClient<TRequest, TResponse>.Response
   fullName.vb: Uidai.Aadhaar.Agency.ApiClient(Of TRequest, TResponse).Response
-- uid: Uidai.Aadhaar.Agency.ApiClient`2.RetrieveResponseAsync
-  name: RetrieveResponseAsync()
-  href: api/Uidai.Aadhaar.Agency.ApiClient`2.html#Uidai_Aadhaar_Agency_ApiClient_2_RetrieveResponseAsync
-  commentId: M:Uidai.Aadhaar.Agency.ApiClient`2.RetrieveResponseAsync
-  fullName: Uidai.Aadhaar.Agency.ApiClient<TRequest, TResponse>.RetrieveResponseAsync()
-  fullName.vb: Uidai.Aadhaar.Agency.ApiClient(Of TRequest, TResponse).RetrieveResponseAsync()
-- uid: Uidai.Aadhaar.Agency.ApiClient`2.RetrieveResponseXmlAsync(System.Xml.Linq.XElement)
-  name: RetrieveResponseXmlAsync(XElement)
-  href: api/Uidai.Aadhaar.Agency.ApiClient`2.html#Uidai_Aadhaar_Agency_ApiClient_2_RetrieveResponseXmlAsync_System_Xml_Linq_XElement_
-  commentId: M:Uidai.Aadhaar.Agency.ApiClient`2.RetrieveResponseXmlAsync(System.Xml.Linq.XElement)
-  fullName: Uidai.Aadhaar.Agency.ApiClient<TRequest, TResponse>.RetrieveResponseXmlAsync(System.Xml.Linq.XElement)
-  fullName.vb: Uidai.Aadhaar.Agency.ApiClient(Of TRequest, TResponse).RetrieveResponseXmlAsync(System.Xml.Linq.XElement)
+- uid: Uidai.Aadhaar.Agency.ApiClient`2.SerializeRequestXml
+  name: SerializeRequestXml()
+  href: api/Uidai.Aadhaar.Agency.ApiClient-2.html#Uidai_Aadhaar_Agency_ApiClient_2_SerializeRequestXml
+  commentId: M:Uidai.Aadhaar.Agency.ApiClient`2.SerializeRequestXml
+  fullName: Uidai.Aadhaar.Agency.ApiClient<TRequest, TResponse>.SerializeRequestXml()
+  fullName.vb: Uidai.Aadhaar.Agency.ApiClient(Of TRequest, TResponse).SerializeRequestXml()
 - uid: Uidai.Aadhaar.Agency.ApiClient`2.ThrowOnApiException
   name: ThrowOnApiException
-  href: api/Uidai.Aadhaar.Agency.ApiClient`2.html#Uidai_Aadhaar_Agency_ApiClient_2_ThrowOnApiException
+  href: api/Uidai.Aadhaar.Agency.ApiClient-2.html#Uidai_Aadhaar_Agency_ApiClient_2_ThrowOnApiException
   commentId: P:Uidai.Aadhaar.Agency.ApiClient`2.ThrowOnApiException
   fullName: Uidai.Aadhaar.Agency.ApiClient<TRequest, TResponse>.ThrowOnApiException
   fullName.vb: Uidai.Aadhaar.Agency.ApiClient(Of TRequest, TResponse).ThrowOnApiException
@@ -84,76 +84,51 @@ references:
   href: api/Uidai.Aadhaar.Agency.AuthClient.html#Uidai_Aadhaar_Agency_AuthClient
   commentId: T:Uidai.Aadhaar.Agency.AuthClient
   fullName: Uidai.Aadhaar.Agency.AuthClient
-- uid: Uidai.Aadhaar.Agency.AuthClient.ApplyAddress
-  name: ApplyAddress()
-  href: api/Uidai.Aadhaar.Agency.AuthClient.html#Uidai_Aadhaar_Agency_AuthClient_ApplyAddress
-  commentId: M:Uidai.Aadhaar.Agency.AuthClient.ApplyAddress
-  fullName: Uidai.Aadhaar.Agency.AuthClient.ApplyAddress()
-- uid: Uidai.Aadhaar.Agency.AuthClient.ApplyAgencyInfo
-  name: ApplyAgencyInfo()
-  href: api/Uidai.Aadhaar.Agency.AuthClient.html#Uidai_Aadhaar_Agency_AuthClient_ApplyAgencyInfo
-  commentId: M:Uidai.Aadhaar.Agency.AuthClient.ApplyAgencyInfo
-  fullName: Uidai.Aadhaar.Agency.AuthClient.ApplyAgencyInfo()
+- uid: Uidai.Aadhaar.Agency.AuthClient.ApplyInfo
+  name: ApplyInfo()
+  href: api/Uidai.Aadhaar.Agency.AuthClient.html#Uidai_Aadhaar_Agency_AuthClient_ApplyInfo
+  commentId: M:Uidai.Aadhaar.Agency.AuthClient.ApplyInfo
+  fullName: Uidai.Aadhaar.Agency.AuthClient.ApplyInfo()
 - uid: Uidai.Aadhaar.Agency.BfdClient
   name: BfdClient
   href: api/Uidai.Aadhaar.Agency.BfdClient.html#Uidai_Aadhaar_Agency_BfdClient
   commentId: T:Uidai.Aadhaar.Agency.BfdClient
   fullName: Uidai.Aadhaar.Agency.BfdClient
-- uid: Uidai.Aadhaar.Agency.BfdClient.ApplyAddress
-  name: ApplyAddress()
-  href: api/Uidai.Aadhaar.Agency.BfdClient.html#Uidai_Aadhaar_Agency_BfdClient_ApplyAddress
-  commentId: M:Uidai.Aadhaar.Agency.BfdClient.ApplyAddress
-  fullName: Uidai.Aadhaar.Agency.BfdClient.ApplyAddress()
+- uid: Uidai.Aadhaar.Agency.BfdClient.ApplyInfo
+  name: ApplyInfo()
+  href: api/Uidai.Aadhaar.Agency.BfdClient.html#Uidai_Aadhaar_Agency_BfdClient_ApplyInfo
+  commentId: M:Uidai.Aadhaar.Agency.BfdClient.ApplyInfo
+  fullName: Uidai.Aadhaar.Agency.BfdClient.ApplyInfo()
 - uid: Uidai.Aadhaar.Agency.DeviceResetClient
   name: DeviceResetClient
   href: api/Uidai.Aadhaar.Agency.DeviceResetClient.html#Uidai_Aadhaar_Agency_DeviceResetClient
   commentId: T:Uidai.Aadhaar.Agency.DeviceResetClient
   fullName: Uidai.Aadhaar.Agency.DeviceResetClient
-- uid: Uidai.Aadhaar.Agency.DeviceResetClient.ApplyAddress
-  name: ApplyAddress()
-  href: api/Uidai.Aadhaar.Agency.DeviceResetClient.html#Uidai_Aadhaar_Agency_DeviceResetClient_ApplyAddress
-  commentId: M:Uidai.Aadhaar.Agency.DeviceResetClient.ApplyAddress
-  fullName: Uidai.Aadhaar.Agency.DeviceResetClient.ApplyAddress()
 - uid: Uidai.Aadhaar.Agency.KycClient
   name: KycClient
   href: api/Uidai.Aadhaar.Agency.KycClient.html#Uidai_Aadhaar_Agency_KycClient
   commentId: T:Uidai.Aadhaar.Agency.KycClient
   fullName: Uidai.Aadhaar.Agency.KycClient
-- uid: Uidai.Aadhaar.Agency.KycClient.ApplyAddress
-  name: ApplyAddress()
-  href: api/Uidai.Aadhaar.Agency.KycClient.html#Uidai_Aadhaar_Agency_KycClient_ApplyAddress
-  commentId: M:Uidai.Aadhaar.Agency.KycClient.ApplyAddress
-  fullName: Uidai.Aadhaar.Agency.KycClient.ApplyAddress()
-- uid: Uidai.Aadhaar.Agency.KycClient.ApplyAgencyInfo
-  name: ApplyAgencyInfo()
-  href: api/Uidai.Aadhaar.Agency.KycClient.html#Uidai_Aadhaar_Agency_KycClient_ApplyAgencyInfo
-  commentId: M:Uidai.Aadhaar.Agency.KycClient.ApplyAgencyInfo
-  fullName: Uidai.Aadhaar.Agency.KycClient.ApplyAgencyInfo()
-- uid: Uidai.Aadhaar.Agency.KycClient.Decrypter
-  name: Decrypter
-  href: api/Uidai.Aadhaar.Agency.KycClient.html#Uidai_Aadhaar_Agency_KycClient_Decrypter
-  commentId: P:Uidai.Aadhaar.Agency.KycClient.Decrypter
-  fullName: Uidai.Aadhaar.Agency.KycClient.Decrypter
-- uid: Uidai.Aadhaar.Agency.KycClient.RetrieveResponseAsync
-  name: RetrieveResponseAsync()
-  href: api/Uidai.Aadhaar.Agency.KycClient.html#Uidai_Aadhaar_Agency_KycClient_RetrieveResponseAsync
-  commentId: M:Uidai.Aadhaar.Agency.KycClient.RetrieveResponseAsync
-  fullName: Uidai.Aadhaar.Agency.KycClient.RetrieveResponseAsync()
+- uid: Uidai.Aadhaar.Agency.KycClient.ApplyInfo
+  name: ApplyInfo()
+  href: api/Uidai.Aadhaar.Agency.KycClient.html#Uidai_Aadhaar_Agency_KycClient_ApplyInfo
+  commentId: M:Uidai.Aadhaar.Agency.KycClient.ApplyInfo
+  fullName: Uidai.Aadhaar.Agency.KycClient.ApplyInfo()
+- uid: Uidai.Aadhaar.Agency.KycClient.DeserializeResponseXml(System.Xml.Linq.XElement)
+  name: DeserializeResponseXml(XElement)
+  href: api/Uidai.Aadhaar.Agency.KycClient.html#Uidai_Aadhaar_Agency_KycClient_DeserializeResponseXml_System_Xml_Linq_XElement_
+  commentId: M:Uidai.Aadhaar.Agency.KycClient.DeserializeResponseXml(System.Xml.Linq.XElement)
+  fullName: Uidai.Aadhaar.Agency.KycClient.DeserializeResponseXml(System.Xml.Linq.XElement)
 - uid: Uidai.Aadhaar.Agency.OtpClient
   name: OtpClient
   href: api/Uidai.Aadhaar.Agency.OtpClient.html#Uidai_Aadhaar_Agency_OtpClient
   commentId: T:Uidai.Aadhaar.Agency.OtpClient
   fullName: Uidai.Aadhaar.Agency.OtpClient
-- uid: Uidai.Aadhaar.Agency.OtpClient.ApplyAddress
-  name: ApplyAddress()
-  href: api/Uidai.Aadhaar.Agency.OtpClient.html#Uidai_Aadhaar_Agency_OtpClient_ApplyAddress
-  commentId: M:Uidai.Aadhaar.Agency.OtpClient.ApplyAddress
-  fullName: Uidai.Aadhaar.Agency.OtpClient.ApplyAddress()
-- uid: Uidai.Aadhaar.Agency.OtpClient.ApplyAgencyInfo
-  name: ApplyAgencyInfo()
-  href: api/Uidai.Aadhaar.Agency.OtpClient.html#Uidai_Aadhaar_Agency_OtpClient_ApplyAgencyInfo
-  commentId: M:Uidai.Aadhaar.Agency.OtpClient.ApplyAgencyInfo
-  fullName: Uidai.Aadhaar.Agency.OtpClient.ApplyAgencyInfo()
+- uid: Uidai.Aadhaar.Agency.OtpClient.ApplyInfo
+  name: ApplyInfo()
+  href: api/Uidai.Aadhaar.Agency.OtpClient.html#Uidai_Aadhaar_Agency_OtpClient_ApplyInfo
+  commentId: M:Uidai.Aadhaar.Agency.OtpClient.ApplyInfo
+  fullName: Uidai.Aadhaar.Agency.OtpClient.ApplyInfo()
 - uid: Uidai.Aadhaar.Agency.UserAgency
   name: UserAgency
   href: api/Uidai.Aadhaar.Agency.UserAgency.html#Uidai_Aadhaar_Agency_UserAgency
@@ -644,11 +619,26 @@ references:
   href: api/Uidai.Aadhaar.Api.KycResponse.html#Uidai_Aadhaar_Api_KycResponse
   commentId: T:Uidai.Aadhaar.Api.KycResponse
   fullName: Uidai.Aadhaar.Api.KycResponse
+- uid: Uidai.Aadhaar.Api.KycResponse.Decryptor
+  name: Decryptor
+  href: api/Uidai.Aadhaar.Api.KycResponse.html#Uidai_Aadhaar_Api_KycResponse_Decryptor
+  commentId: P:Uidai.Aadhaar.Api.KycResponse.Decryptor
+  fullName: Uidai.Aadhaar.Api.KycResponse.Decryptor
 - uid: Uidai.Aadhaar.Api.KycResponse.DeserializeXml(System.Xml.Linq.XElement)
   name: DeserializeXml(XElement)
   href: api/Uidai.Aadhaar.Api.KycResponse.html#Uidai_Aadhaar_Api_KycResponse_DeserializeXml_System_Xml_Linq_XElement_
   commentId: M:Uidai.Aadhaar.Api.KycResponse.DeserializeXml(System.Xml.Linq.XElement)
   fullName: Uidai.Aadhaar.Api.KycResponse.DeserializeXml(System.Xml.Linq.XElement)
+- uid: Uidai.Aadhaar.Api.KycResponse.EAadhaar
+  name: EAadhaar
+  href: api/Uidai.Aadhaar.Api.KycResponse.html#Uidai_Aadhaar_Api_KycResponse_EAadhaar
+  commentId: P:Uidai.Aadhaar.Api.KycResponse.EAadhaar
+  fullName: Uidai.Aadhaar.Api.KycResponse.EAadhaar
+- uid: Uidai.Aadhaar.Api.KycResponse.IsDecryptionByKsa
+  name: IsDecryptionByKsa
+  href: api/Uidai.Aadhaar.Api.KycResponse.html#Uidai_Aadhaar_Api_KycResponse_IsDecryptionByKsa
+  commentId: P:Uidai.Aadhaar.Api.KycResponse.IsDecryptionByKsa
+  fullName: Uidai.Aadhaar.Api.KycResponse.IsDecryptionByKsa
 - uid: Uidai.Aadhaar.Api.KycResponse.Resident
   name: Resident
   href: api/Uidai.Aadhaar.Api.KycResponse.html#Uidai_Aadhaar_Api_KycResponse_Resident
@@ -826,110 +816,110 @@ references:
   fullName: Uidai.Aadhaar.Device.BfdContext.Encrypt(Uidai.Aadhaar.Resident.BestFingerInfo, Uidai.Aadhaar.Security.SessionKey)
 - uid: Uidai.Aadhaar.Device.DeviceContext`1
   name: DeviceContext<T>
-  href: api/Uidai.Aadhaar.Device.DeviceContext`1.html#Uidai_Aadhaar_Device_DeviceContext_1
+  href: api/Uidai.Aadhaar.Device.DeviceContext-1.html#Uidai_Aadhaar_Device_DeviceContext_1
   commentId: T:Uidai.Aadhaar.Device.DeviceContext`1
   name.vb: DeviceContext(Of T)
   fullName: Uidai.Aadhaar.Device.DeviceContext<T>
   fullName.vb: Uidai.Aadhaar.Device.DeviceContext(Of T)
 - uid: Uidai.Aadhaar.Device.DeviceContext`1.#ctor
   name: DeviceContext()
-  href: api/Uidai.Aadhaar.Device.DeviceContext`1.html#Uidai_Aadhaar_Device_DeviceContext_1__ctor
+  href: api/Uidai.Aadhaar.Device.DeviceContext-1.html#Uidai_Aadhaar_Device_DeviceContext_1__ctor
   commentId: M:Uidai.Aadhaar.Device.DeviceContext`1.#ctor
   fullName: Uidai.Aadhaar.Device.DeviceContext<T>.DeviceContext()
   fullName.vb: Uidai.Aadhaar.Device.DeviceContext(Of T).DeviceContext()
 - uid: Uidai.Aadhaar.Device.DeviceContext`1.#ctor(System.Xml.Linq.XElement)
   name: DeviceContext(XElement)
-  href: api/Uidai.Aadhaar.Device.DeviceContext`1.html#Uidai_Aadhaar_Device_DeviceContext_1__ctor_System_Xml_Linq_XElement_
+  href: api/Uidai.Aadhaar.Device.DeviceContext-1.html#Uidai_Aadhaar_Device_DeviceContext_1__ctor_System_Xml_Linq_XElement_
   commentId: M:Uidai.Aadhaar.Device.DeviceContext`1.#ctor(System.Xml.Linq.XElement)
   fullName: Uidai.Aadhaar.Device.DeviceContext<T>.DeviceContext(System.Xml.Linq.XElement)
   fullName.vb: Uidai.Aadhaar.Device.DeviceContext(Of T).DeviceContext(System.Xml.Linq.XElement)
 - uid: Uidai.Aadhaar.Device.DeviceContext`1.AadhaarNumber
   name: AadhaarNumber
-  href: api/Uidai.Aadhaar.Device.DeviceContext`1.html#Uidai_Aadhaar_Device_DeviceContext_1_AadhaarNumber
+  href: api/Uidai.Aadhaar.Device.DeviceContext-1.html#Uidai_Aadhaar_Device_DeviceContext_1_AadhaarNumber
   commentId: P:Uidai.Aadhaar.Device.DeviceContext`1.AadhaarNumber
   fullName: Uidai.Aadhaar.Device.DeviceContext<T>.AadhaarNumber
   fullName.vb: Uidai.Aadhaar.Device.DeviceContext(Of T).AadhaarNumber
 - uid: Uidai.Aadhaar.Device.DeviceContext`1.ApiName
   name: ApiName
-  href: api/Uidai.Aadhaar.Device.DeviceContext`1.html#Uidai_Aadhaar_Device_DeviceContext_1_ApiName
+  href: api/Uidai.Aadhaar.Device.DeviceContext-1.html#Uidai_Aadhaar_Device_DeviceContext_1_ApiName
   commentId: P:Uidai.Aadhaar.Device.DeviceContext`1.ApiName
   fullName: Uidai.Aadhaar.Device.DeviceContext<T>.ApiName
   fullName.vb: Uidai.Aadhaar.Device.DeviceContext(Of T).ApiName
 - uid: Uidai.Aadhaar.Device.DeviceContext`1.Data
   name: Data
-  href: api/Uidai.Aadhaar.Device.DeviceContext`1.html#Uidai_Aadhaar_Device_DeviceContext_1_Data
+  href: api/Uidai.Aadhaar.Device.DeviceContext-1.html#Uidai_Aadhaar_Device_DeviceContext_1_Data
   commentId: P:Uidai.Aadhaar.Device.DeviceContext`1.Data
   fullName: Uidai.Aadhaar.Device.DeviceContext<T>.Data
   fullName.vb: Uidai.Aadhaar.Device.DeviceContext(Of T).Data
 - uid: Uidai.Aadhaar.Device.DeviceContext`1.DeserializeXml(System.Xml.Linq.XElement)
   name: DeserializeXml(XElement)
-  href: api/Uidai.Aadhaar.Device.DeviceContext`1.html#Uidai_Aadhaar_Device_DeviceContext_1_DeserializeXml_System_Xml_Linq_XElement_
+  href: api/Uidai.Aadhaar.Device.DeviceContext-1.html#Uidai_Aadhaar_Device_DeviceContext_1_DeserializeXml_System_Xml_Linq_XElement_
   commentId: M:Uidai.Aadhaar.Device.DeviceContext`1.DeserializeXml(System.Xml.Linq.XElement)
   fullName: Uidai.Aadhaar.Device.DeviceContext<T>.DeserializeXml(System.Xml.Linq.XElement)
   fullName.vb: Uidai.Aadhaar.Device.DeviceContext(Of T).DeserializeXml(System.Xml.Linq.XElement)
 - uid: Uidai.Aadhaar.Device.DeviceContext`1.DeviceInfo
   name: DeviceInfo
-  href: api/Uidai.Aadhaar.Device.DeviceContext`1.html#Uidai_Aadhaar_Device_DeviceContext_1_DeviceInfo
+  href: api/Uidai.Aadhaar.Device.DeviceContext-1.html#Uidai_Aadhaar_Device_DeviceContext_1_DeviceInfo
   commentId: P:Uidai.Aadhaar.Device.DeviceContext`1.DeviceInfo
   fullName: Uidai.Aadhaar.Device.DeviceContext<T>.DeviceInfo
   fullName.vb: Uidai.Aadhaar.Device.DeviceContext(Of T).DeviceInfo
 - uid: Uidai.Aadhaar.Device.DeviceContext`1.Encrypt(`0,Uidai.Aadhaar.Security.SessionKey)
   name: Encrypt(T, SessionKey)
-  href: api/Uidai.Aadhaar.Device.DeviceContext`1.html#Uidai_Aadhaar_Device_DeviceContext_1_Encrypt__0_Uidai_Aadhaar_Security_SessionKey_
+  href: api/Uidai.Aadhaar.Device.DeviceContext-1.html#Uidai_Aadhaar_Device_DeviceContext_1_Encrypt__0_Uidai_Aadhaar_Security_SessionKey_
   commentId: M:Uidai.Aadhaar.Device.DeviceContext`1.Encrypt(`0,Uidai.Aadhaar.Security.SessionKey)
   fullName: Uidai.Aadhaar.Device.DeviceContext<T>.Encrypt(T, Uidai.Aadhaar.Security.SessionKey)
   fullName.vb: Uidai.Aadhaar.Device.DeviceContext(Of T).Encrypt(T, Uidai.Aadhaar.Security.SessionKey)
 - uid: Uidai.Aadhaar.Device.DeviceContext`1.EncryptAsync(`0,Uidai.Aadhaar.Security.SessionKey)
   name: EncryptAsync(T, SessionKey)
-  href: api/Uidai.Aadhaar.Device.DeviceContext`1.html#Uidai_Aadhaar_Device_DeviceContext_1_EncryptAsync__0_Uidai_Aadhaar_Security_SessionKey_
+  href: api/Uidai.Aadhaar.Device.DeviceContext-1.html#Uidai_Aadhaar_Device_DeviceContext_1_EncryptAsync__0_Uidai_Aadhaar_Security_SessionKey_
   commentId: M:Uidai.Aadhaar.Device.DeviceContext`1.EncryptAsync(`0,Uidai.Aadhaar.Security.SessionKey)
   fullName: Uidai.Aadhaar.Device.DeviceContext<T>.EncryptAsync(T, Uidai.Aadhaar.Security.SessionKey)
   fullName.vb: Uidai.Aadhaar.Device.DeviceContext(Of T).EncryptAsync(T, Uidai.Aadhaar.Security.SessionKey)
 - uid: Uidai.Aadhaar.Device.DeviceContext`1.FromXml(System.Xml.Linq.XElement)
   name: FromXml(XElement)
-  href: api/Uidai.Aadhaar.Device.DeviceContext`1.html#Uidai_Aadhaar_Device_DeviceContext_1_FromXml_System_Xml_Linq_XElement_
+  href: api/Uidai.Aadhaar.Device.DeviceContext-1.html#Uidai_Aadhaar_Device_DeviceContext_1_FromXml_System_Xml_Linq_XElement_
   commentId: M:Uidai.Aadhaar.Device.DeviceContext`1.FromXml(System.Xml.Linq.XElement)
   fullName: Uidai.Aadhaar.Device.DeviceContext<T>.FromXml(System.Xml.Linq.XElement)
   fullName.vb: Uidai.Aadhaar.Device.DeviceContext(Of T).FromXml(System.Xml.Linq.XElement)
 - uid: Uidai.Aadhaar.Device.DeviceContext`1.Hmac
   name: Hmac
-  href: api/Uidai.Aadhaar.Device.DeviceContext`1.html#Uidai_Aadhaar_Device_DeviceContext_1_Hmac
+  href: api/Uidai.Aadhaar.Device.DeviceContext-1.html#Uidai_Aadhaar_Device_DeviceContext_1_Hmac
   commentId: P:Uidai.Aadhaar.Device.DeviceContext`1.Hmac
   fullName: Uidai.Aadhaar.Device.DeviceContext<T>.Hmac
   fullName.vb: Uidai.Aadhaar.Device.DeviceContext(Of T).Hmac
 - uid: Uidai.Aadhaar.Device.DeviceContext`1.KeyInfo
   name: KeyInfo
-  href: api/Uidai.Aadhaar.Device.DeviceContext`1.html#Uidai_Aadhaar_Device_DeviceContext_1_KeyInfo
+  href: api/Uidai.Aadhaar.Device.DeviceContext-1.html#Uidai_Aadhaar_Device_DeviceContext_1_KeyInfo
   commentId: P:Uidai.Aadhaar.Device.DeviceContext`1.KeyInfo
   fullName: Uidai.Aadhaar.Device.DeviceContext<T>.KeyInfo
   fullName.vb: Uidai.Aadhaar.Device.DeviceContext(Of T).KeyInfo
 - uid: Uidai.Aadhaar.Device.DeviceContext`1.SerializeXml(System.String)
   name: SerializeXml(String)
-  href: api/Uidai.Aadhaar.Device.DeviceContext`1.html#Uidai_Aadhaar_Device_DeviceContext_1_SerializeXml_System_String_
+  href: api/Uidai.Aadhaar.Device.DeviceContext-1.html#Uidai_Aadhaar_Device_DeviceContext_1_SerializeXml_System_String_
   commentId: M:Uidai.Aadhaar.Device.DeviceContext`1.SerializeXml(System.String)
   fullName: Uidai.Aadhaar.Device.DeviceContext<T>.SerializeXml(System.String)
   fullName.vb: Uidai.Aadhaar.Device.DeviceContext(Of T).SerializeXml(System.String)
 - uid: Uidai.Aadhaar.Device.DeviceContext`1.Terminal
   name: Terminal
-  href: api/Uidai.Aadhaar.Device.DeviceContext`1.html#Uidai_Aadhaar_Device_DeviceContext_1_Terminal
+  href: api/Uidai.Aadhaar.Device.DeviceContext-1.html#Uidai_Aadhaar_Device_DeviceContext_1_Terminal
   commentId: P:Uidai.Aadhaar.Device.DeviceContext`1.Terminal
   fullName: Uidai.Aadhaar.Device.DeviceContext<T>.Terminal
   fullName.vb: Uidai.Aadhaar.Device.DeviceContext(Of T).Terminal
 - uid: Uidai.Aadhaar.Device.DeviceContext`1.Timestamp
   name: Timestamp
-  href: api/Uidai.Aadhaar.Device.DeviceContext`1.html#Uidai_Aadhaar_Device_DeviceContext_1_Timestamp
+  href: api/Uidai.Aadhaar.Device.DeviceContext-1.html#Uidai_Aadhaar_Device_DeviceContext_1_Timestamp
   commentId: P:Uidai.Aadhaar.Device.DeviceContext`1.Timestamp
   fullName: Uidai.Aadhaar.Device.DeviceContext<T>.Timestamp
   fullName.vb: Uidai.Aadhaar.Device.DeviceContext(Of T).Timestamp
 - uid: Uidai.Aadhaar.Device.DeviceContext`1.ToXml
   name: ToXml()
-  href: api/Uidai.Aadhaar.Device.DeviceContext`1.html#Uidai_Aadhaar_Device_DeviceContext_1_ToXml
+  href: api/Uidai.Aadhaar.Device.DeviceContext-1.html#Uidai_Aadhaar_Device_DeviceContext_1_ToXml
   commentId: M:Uidai.Aadhaar.Device.DeviceContext`1.ToXml
   fullName: Uidai.Aadhaar.Device.DeviceContext<T>.ToXml()
   fullName.vb: Uidai.Aadhaar.Device.DeviceContext(Of T).ToXml()
 - uid: Uidai.Aadhaar.Device.DeviceContext`1.ToXml(System.String)
   name: ToXml(String)
-  href: api/Uidai.Aadhaar.Device.DeviceContext`1.html#Uidai_Aadhaar_Device_DeviceContext_1_ToXml_System_String_
+  href: api/Uidai.Aadhaar.Device.DeviceContext-1.html#Uidai_Aadhaar_Device_DeviceContext_1_ToXml_System_String_
   commentId: M:Uidai.Aadhaar.Device.DeviceContext`1.ToXml(System.String)
   fullName: Uidai.Aadhaar.Device.DeviceContext<T>.ToXml(System.String)
   fullName.vb: Uidai.Aadhaar.Device.DeviceContext(Of T).ToXml(System.String)
@@ -1203,6 +1193,11 @@ references:
   href: api/Uidai.Aadhaar.Device.OtpContext.html#Uidai_Aadhaar_Device_OtpContext_Terminal
   commentId: P:Uidai.Aadhaar.Device.OtpContext.Terminal
   fullName: Uidai.Aadhaar.Device.OtpContext.Terminal
+- uid: Uidai.Aadhaar.Device.OtpContext.ToXml
+  name: ToXml()
+  href: api/Uidai.Aadhaar.Device.OtpContext.html#Uidai_Aadhaar_Device_OtpContext_ToXml
+  commentId: M:Uidai.Aadhaar.Device.OtpContext.ToXml
+  fullName: Uidai.Aadhaar.Device.OtpContext.ToXml()
 - uid: Uidai.Aadhaar.Device.OtpContext.ToXml(System.String)
   name: ToXml(String)
   href: api/Uidai.Aadhaar.Device.OtpContext.html#Uidai_Aadhaar_Device_OtpContext_ToXml_System_String_
@@ -2434,18 +2429,6 @@ references:
   href: api/Uidai.Aadhaar.Security.html#Uidai_Aadhaar_Security
   commentId: N:Uidai.Aadhaar.Security
   fullName: Uidai.Aadhaar.Security
-- uid: Uidai.Aadhaar.Security.IDecrypter
-  name: IDecrypter
-  href: api/Uidai.Aadhaar.Security.IDecrypter.html#Uidai_Aadhaar_Security_IDecrypter
-  commentId: T:Uidai.Aadhaar.Security.IDecrypter
-  fullName: Uidai.Aadhaar.Security.IDecrypter
-- uid: Uidai.Aadhaar.Security.IDecrypter.Decrypt(System.Byte[])
-  name: Decrypt(Byte[])
-  href: api/Uidai.Aadhaar.Security.IDecrypter.html#Uidai_Aadhaar_Security_IDecrypter_Decrypt_System_Byte___
-  commentId: M:Uidai.Aadhaar.Security.IDecrypter.Decrypt(System.Byte[])
-  name.vb: Decrypt(Byte())
-  fullName: Uidai.Aadhaar.Security.IDecrypter.Decrypt(System.Byte[])
-  fullName.vb: Uidai.Aadhaar.Security.IDecrypter.Decrypt(System.Byte())
 - uid: Uidai.Aadhaar.Security.ISigner
   name: ISigner
   href: api/Uidai.Aadhaar.Security.ISigner.html#Uidai_Aadhaar_Security_ISigner
@@ -2466,30 +2449,6 @@ references:
   href: api/Uidai.Aadhaar.Security.IVerifier.html#Uidai_Aadhaar_Security_IVerifier_VerifySignature_System_Xml_Linq_XElement_
   commentId: M:Uidai.Aadhaar.Security.IVerifier.VerifySignature(System.Xml.Linq.XElement)
   fullName: Uidai.Aadhaar.Security.IVerifier.VerifySignature(System.Xml.Linq.XElement)
-- uid: Uidai.Aadhaar.Security.KycDecrypter
-  name: KycDecrypter
-  href: api/Uidai.Aadhaar.Security.KycDecrypter.html#Uidai_Aadhaar_Security_KycDecrypter
-  commentId: T:Uidai.Aadhaar.Security.KycDecrypter
-  fullName: Uidai.Aadhaar.Security.KycDecrypter
-- uid: Uidai.Aadhaar.Security.KycDecrypter.AuaKey
-  name: AuaKey
-  href: api/Uidai.Aadhaar.Security.KycDecrypter.html#Uidai_Aadhaar_Security_KycDecrypter_AuaKey
-  commentId: P:Uidai.Aadhaar.Security.KycDecrypter.AuaKey
-  fullName: Uidai.Aadhaar.Security.KycDecrypter.AuaKey
-- uid: Uidai.Aadhaar.Security.KycDecrypter.Decrypt(System.Byte[])
-  name: Decrypt(Byte[])
-  href: api/Uidai.Aadhaar.Security.KycDecrypter.html#Uidai_Aadhaar_Security_KycDecrypter_Decrypt_System_Byte___
-  commentId: M:Uidai.Aadhaar.Security.KycDecrypter.Decrypt(System.Byte[])
-  name.vb: Decrypt(Byte())
-  fullName: Uidai.Aadhaar.Security.KycDecrypter.Decrypt(System.Byte[])
-  fullName.vb: Uidai.Aadhaar.Security.KycDecrypter.Decrypt(System.Byte())
-- uid: Uidai.Aadhaar.Security.KycDecrypter.DecryptAsync(System.Byte[])
-  name: DecryptAsync(Byte[])
-  href: api/Uidai.Aadhaar.Security.KycDecrypter.html#Uidai_Aadhaar_Security_KycDecrypter_DecryptAsync_System_Byte___
-  commentId: M:Uidai.Aadhaar.Security.KycDecrypter.DecryptAsync(System.Byte[])
-  name.vb: DecryptAsync(Byte())
-  fullName: Uidai.Aadhaar.Security.KycDecrypter.DecryptAsync(System.Byte[])
-  fullName.vb: Uidai.Aadhaar.Security.KycDecrypter.DecryptAsync(System.Byte())
 - uid: Uidai.Aadhaar.Security.SessionKey
   name: SessionKey
   href: api/Uidai.Aadhaar.Security.SessionKey.html#Uidai_Aadhaar_Security_SessionKey
@@ -2597,28 +2556,3 @@ references:
   href: api/Uidai.Aadhaar.Security.SessionKeyInfo.html#Uidai_Aadhaar_Security_SessionKeyInfo_ToXml_System_String_
   commentId: M:Uidai.Aadhaar.Security.SessionKeyInfo.ToXml(System.String)
   fullName: Uidai.Aadhaar.Security.SessionKeyInfo.ToXml(System.String)
-- uid: Uidai.Aadhaar.Security.XmlSignature
-  name: XmlSignature
-  href: api/Uidai.Aadhaar.Security.XmlSignature.html#Uidai_Aadhaar_Security_XmlSignature
-  commentId: T:Uidai.Aadhaar.Security.XmlSignature
-  fullName: Uidai.Aadhaar.Security.XmlSignature
-- uid: Uidai.Aadhaar.Security.XmlSignature.ComputeSignature(System.Xml.Linq.XElement)
-  name: ComputeSignature(XElement)
-  href: api/Uidai.Aadhaar.Security.XmlSignature.html#Uidai_Aadhaar_Security_XmlSignature_ComputeSignature_System_Xml_Linq_XElement_
-  commentId: M:Uidai.Aadhaar.Security.XmlSignature.ComputeSignature(System.Xml.Linq.XElement)
-  fullName: Uidai.Aadhaar.Security.XmlSignature.ComputeSignature(System.Xml.Linq.XElement)
-- uid: Uidai.Aadhaar.Security.XmlSignature.Signer
-  name: Signer
-  href: api/Uidai.Aadhaar.Security.XmlSignature.html#Uidai_Aadhaar_Security_XmlSignature_Signer
-  commentId: P:Uidai.Aadhaar.Security.XmlSignature.Signer
-  fullName: Uidai.Aadhaar.Security.XmlSignature.Signer
-- uid: Uidai.Aadhaar.Security.XmlSignature.Verifier
-  name: Verifier
-  href: api/Uidai.Aadhaar.Security.XmlSignature.html#Uidai_Aadhaar_Security_XmlSignature_Verifier
-  commentId: P:Uidai.Aadhaar.Security.XmlSignature.Verifier
-  fullName: Uidai.Aadhaar.Security.XmlSignature.Verifier
-- uid: Uidai.Aadhaar.Security.XmlSignature.VerifySignature(System.Xml.Linq.XElement)
-  name: VerifySignature(XElement)
-  href: api/Uidai.Aadhaar.Security.XmlSignature.html#Uidai_Aadhaar_Security_XmlSignature_VerifySignature_System_Xml_Linq_XElement_
-  commentId: M:Uidai.Aadhaar.Security.XmlSignature.VerifySignature(System.Xml.Linq.XElement)
-  fullName: Uidai.Aadhaar.Security.XmlSignature.VerifySignature(System.Xml.Linq.XElement)
