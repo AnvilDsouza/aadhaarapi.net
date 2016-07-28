@@ -1223,6 +1223,21 @@ references:
   href: api/Uidai.Aadhaar.Helper.html#Uidai_Aadhaar_Helper
   commentId: N:Uidai.Aadhaar.Helper
   fullName: Uidai.Aadhaar.Helper
+- uid: Uidai.Aadhaar.Helper.AadhaarDocument
+  name: AadhaarDocument
+  href: api/Uidai.Aadhaar.Helper.AadhaarDocument.html#Uidai_Aadhaar_Helper_AadhaarDocument
+  commentId: T:Uidai.Aadhaar.Helper.AadhaarDocument
+  fullName: Uidai.Aadhaar.Helper.AadhaarDocument
+- uid: Uidai.Aadhaar.Helper.AadhaarDocument.Content
+  name: Content
+  href: api/Uidai.Aadhaar.Helper.AadhaarDocument.html#Uidai_Aadhaar_Helper_AadhaarDocument_Content
+  commentId: P:Uidai.Aadhaar.Helper.AadhaarDocument.Content
+  fullName: Uidai.Aadhaar.Helper.AadhaarDocument.Content
+- uid: Uidai.Aadhaar.Helper.AadhaarDocument.Type
+  name: Type
+  href: api/Uidai.Aadhaar.Helper.AadhaarDocument.html#Uidai_Aadhaar_Helper_AadhaarDocument_Type
+  commentId: P:Uidai.Aadhaar.Helper.AadhaarDocument.Type
+  fullName: Uidai.Aadhaar.Helper.AadhaarDocument.Type
 - uid: Uidai.Aadhaar.Helper.AadhaarHelper
   name: AadhaarHelper
   href: api/Uidai.Aadhaar.Helper.AadhaarHelper.html#Uidai_Aadhaar_Helper_AadhaarHelper
@@ -1395,6 +1410,106 @@ references:
   href: api/Uidai.Aadhaar.Helper.AuthInfo.html#Uidai_Aadhaar_Helper_AuthInfo_Validate_Uidai_Aadhaar_Helper_AuthInfo_
   commentId: M:Uidai.Aadhaar.Helper.AuthInfo.Validate(Uidai.Aadhaar.Helper.AuthInfo)
   fullName: Uidai.Aadhaar.Helper.AuthInfo.Validate(Uidai.Aadhaar.Helper.AuthInfo)
+- uid: Uidai.Aadhaar.Helper.DecryptedKycInfo
+  name: DecryptedKycInfo
+  href: api/Uidai.Aadhaar.Helper.DecryptedKycInfo.html#Uidai_Aadhaar_Helper_DecryptedKycInfo
+  commentId: T:Uidai.Aadhaar.Helper.DecryptedKycInfo
+  fullName: Uidai.Aadhaar.Helper.DecryptedKycInfo
+- uid: Uidai.Aadhaar.Helper.DecryptedKycInfo.Data
+  name: Data
+  href: api/Uidai.Aadhaar.Helper.DecryptedKycInfo.html#Uidai_Aadhaar_Helper_DecryptedKycInfo_Data
+  commentId: P:Uidai.Aadhaar.Helper.DecryptedKycInfo.Data
+  fullName: Uidai.Aadhaar.Helper.DecryptedKycInfo.Data
+- uid: Uidai.Aadhaar.Helper.DecryptedKycInfo.Decode
+  name: Decode()
+  href: api/Uidai.Aadhaar.Helper.DecryptedKycInfo.html#Uidai_Aadhaar_Helper_DecryptedKycInfo_Decode
+  commentId: M:Uidai.Aadhaar.Helper.DecryptedKycInfo.Decode
+  fullName: Uidai.Aadhaar.Helper.DecryptedKycInfo.Decode()
+- uid: Uidai.Aadhaar.Helper.DecryptedKycInfo.Encode
+  name: Encode()
+  href: api/Uidai.Aadhaar.Helper.DecryptedKycInfo.html#Uidai_Aadhaar_Helper_DecryptedKycInfo_Encode
+  commentId: M:Uidai.Aadhaar.Helper.DecryptedKycInfo.Encode
+  fullName: Uidai.Aadhaar.Helper.DecryptedKycInfo.Encode()
+- uid: Uidai.Aadhaar.Helper.DecryptedKycInfo.Hmac
+  name: Hmac
+  href: api/Uidai.Aadhaar.Helper.DecryptedKycInfo.html#Uidai_Aadhaar_Helper_DecryptedKycInfo_Hmac
+  commentId: P:Uidai.Aadhaar.Helper.DecryptedKycInfo.Hmac
+  fullName: Uidai.Aadhaar.Helper.DecryptedKycInfo.Hmac
+- uid: Uidai.Aadhaar.Helper.DecryptedKycInfo.InfoValue
+  name: InfoValue
+  href: api/Uidai.Aadhaar.Helper.DecryptedKycInfo.html#Uidai_Aadhaar_Helper_DecryptedKycInfo_InfoValue
+  commentId: P:Uidai.Aadhaar.Helper.DecryptedKycInfo.InfoValue
+  fullName: Uidai.Aadhaar.Helper.DecryptedKycInfo.InfoValue
+- uid: Uidai.Aadhaar.Helper.DecryptedKycInfo.ToXml
+  name: ToXml()
+  href: api/Uidai.Aadhaar.Helper.DecryptedKycInfo.html#Uidai_Aadhaar_Helper_DecryptedKycInfo_ToXml
+  commentId: M:Uidai.Aadhaar.Helper.DecryptedKycInfo.ToXml
+  fullName: Uidai.Aadhaar.Helper.DecryptedKycInfo.ToXml()
+- uid: Uidai.Aadhaar.Helper.DocumentType
+  name: DocumentType
+  href: api/Uidai.Aadhaar.Helper.DocumentType.html#Uidai_Aadhaar_Helper_DocumentType
+  commentId: T:Uidai.Aadhaar.Helper.DocumentType
+  fullName: Uidai.Aadhaar.Helper.DocumentType
+- uid: Uidai.Aadhaar.Helper.DocumentType.Pdf
+  name: Pdf
+  href: api/Uidai.Aadhaar.Helper.DocumentType.html#Uidai_Aadhaar_Helper_DocumentType_Pdf
+  commentId: F:Uidai.Aadhaar.Helper.DocumentType.Pdf
+  fullName: Uidai.Aadhaar.Helper.DocumentType.Pdf
+- uid: Uidai.Aadhaar.Helper.EncryptedKycInfo
+  name: EncryptedKycInfo
+  href: api/Uidai.Aadhaar.Helper.EncryptedKycInfo.html#Uidai_Aadhaar_Helper_EncryptedKycInfo
+  commentId: T:Uidai.Aadhaar.Helper.EncryptedKycInfo
+  fullName: Uidai.Aadhaar.Helper.EncryptedKycInfo
+- uid: Uidai.Aadhaar.Helper.EncryptedKycInfo.Decode
+  name: Decode()
+  href: api/Uidai.Aadhaar.Helper.EncryptedKycInfo.html#Uidai_Aadhaar_Helper_EncryptedKycInfo_Decode
+  commentId: M:Uidai.Aadhaar.Helper.EncryptedKycInfo.Decode
+  fullName: Uidai.Aadhaar.Helper.EncryptedKycInfo.Decode()
+- uid: Uidai.Aadhaar.Helper.EncryptedKycInfo.Decrypt(Uidai.Aadhaar.Security.IKycDecryptor)
+  name: Decrypt(IKycDecryptor)
+  href: api/Uidai.Aadhaar.Helper.EncryptedKycInfo.html#Uidai_Aadhaar_Helper_EncryptedKycInfo_Decrypt_Uidai_Aadhaar_Security_IKycDecryptor_
+  commentId: M:Uidai.Aadhaar.Helper.EncryptedKycInfo.Decrypt(Uidai.Aadhaar.Security.IKycDecryptor)
+  fullName: Uidai.Aadhaar.Helper.EncryptedKycInfo.Decrypt(Uidai.Aadhaar.Security.IKycDecryptor)
+- uid: Uidai.Aadhaar.Helper.EncryptedKycInfo.Encode
+  name: Encode()
+  href: api/Uidai.Aadhaar.Helper.EncryptedKycInfo.html#Uidai_Aadhaar_Helper_EncryptedKycInfo_Encode
+  commentId: M:Uidai.Aadhaar.Helper.EncryptedKycInfo.Encode
+  fullName: Uidai.Aadhaar.Helper.EncryptedKycInfo.Encode()
+- uid: Uidai.Aadhaar.Helper.EncryptedKycInfo.EncryptedData
+  name: EncryptedData
+  href: api/Uidai.Aadhaar.Helper.EncryptedKycInfo.html#Uidai_Aadhaar_Helper_EncryptedKycInfo_EncryptedData
+  commentId: P:Uidai.Aadhaar.Helper.EncryptedKycInfo.EncryptedData
+  fullName: Uidai.Aadhaar.Helper.EncryptedKycInfo.EncryptedData
+- uid: Uidai.Aadhaar.Helper.EncryptedKycInfo.EncryptedKey
+  name: EncryptedKey
+  href: api/Uidai.Aadhaar.Helper.EncryptedKycInfo.html#Uidai_Aadhaar_Helper_EncryptedKycInfo_EncryptedKey
+  commentId: P:Uidai.Aadhaar.Helper.EncryptedKycInfo.EncryptedKey
+  fullName: Uidai.Aadhaar.Helper.EncryptedKycInfo.EncryptedKey
+- uid: Uidai.Aadhaar.Helper.EncryptedKycInfo.Header
+  name: Header
+  href: api/Uidai.Aadhaar.Helper.EncryptedKycInfo.html#Uidai_Aadhaar_Helper_EncryptedKycInfo_Header
+  commentId: P:Uidai.Aadhaar.Helper.EncryptedKycInfo.Header
+  fullName: Uidai.Aadhaar.Helper.EncryptedKycInfo.Header
+- uid: Uidai.Aadhaar.Helper.EncryptedKycInfo.InfoValue
+  name: InfoValue
+  href: api/Uidai.Aadhaar.Helper.EncryptedKycInfo.html#Uidai_Aadhaar_Helper_EncryptedKycInfo_InfoValue
+  commentId: P:Uidai.Aadhaar.Helper.EncryptedKycInfo.InfoValue
+  fullName: Uidai.Aadhaar.Helper.EncryptedKycInfo.InfoValue
+- uid: Uidai.Aadhaar.Helper.EncryptedKycInfo.OaepLabel
+  name: OaepLabel
+  href: api/Uidai.Aadhaar.Helper.EncryptedKycInfo.html#Uidai_Aadhaar_Helper_EncryptedKycInfo_OaepLabel
+  commentId: P:Uidai.Aadhaar.Helper.EncryptedKycInfo.OaepLabel
+  fullName: Uidai.Aadhaar.Helper.EncryptedKycInfo.OaepLabel
+- uid: Uidai.Aadhaar.Helper.EncryptedKycInfo.PublicKey
+  name: PublicKey
+  href: api/Uidai.Aadhaar.Helper.EncryptedKycInfo.html#Uidai_Aadhaar_Helper_EncryptedKycInfo_PublicKey
+  commentId: P:Uidai.Aadhaar.Helper.EncryptedKycInfo.PublicKey
+  fullName: Uidai.Aadhaar.Helper.EncryptedKycInfo.PublicKey
+- uid: Uidai.Aadhaar.Helper.EncryptedKycInfo.Version
+  name: Version
+  href: api/Uidai.Aadhaar.Helper.EncryptedKycInfo.html#Uidai_Aadhaar_Helper_EncryptedKycInfo_Version
+  commentId: F:Uidai.Aadhaar.Helper.EncryptedKycInfo.Version
+  fullName: Uidai.Aadhaar.Helper.EncryptedKycInfo.Version
 - uid: Uidai.Aadhaar.Helper.IUsed
   name: IUsed
   href: api/Uidai.Aadhaar.Helper.IUsed.html#Uidai_Aadhaar_Helper_IUsed
@@ -2429,6 +2544,16 @@ references:
   href: api/Uidai.Aadhaar.Security.html#Uidai_Aadhaar_Security
   commentId: N:Uidai.Aadhaar.Security
   fullName: Uidai.Aadhaar.Security
+- uid: Uidai.Aadhaar.Security.IKycDecryptor
+  name: IKycDecryptor
+  href: api/Uidai.Aadhaar.Security.IKycDecryptor.html#Uidai_Aadhaar_Security_IKycDecryptor
+  commentId: T:Uidai.Aadhaar.Security.IKycDecryptor
+  fullName: Uidai.Aadhaar.Security.IKycDecryptor
+- uid: Uidai.Aadhaar.Security.IKycDecryptor.Decrypt(Uidai.Aadhaar.Helper.EncryptedKycInfo)
+  name: Decrypt(EncryptedKycInfo)
+  href: api/Uidai.Aadhaar.Security.IKycDecryptor.html#Uidai_Aadhaar_Security_IKycDecryptor_Decrypt_Uidai_Aadhaar_Helper_EncryptedKycInfo_
+  commentId: M:Uidai.Aadhaar.Security.IKycDecryptor.Decrypt(Uidai.Aadhaar.Helper.EncryptedKycInfo)
+  fullName: Uidai.Aadhaar.Security.IKycDecryptor.Decrypt(Uidai.Aadhaar.Helper.EncryptedKycInfo)
 - uid: Uidai.Aadhaar.Security.ISigner
   name: ISigner
   href: api/Uidai.Aadhaar.Security.ISigner.html#Uidai_Aadhaar_Security_ISigner
